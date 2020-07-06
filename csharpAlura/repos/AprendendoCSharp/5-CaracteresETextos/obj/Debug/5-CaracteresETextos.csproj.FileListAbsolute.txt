@@ -1,0 +1,6 @@
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\5-CaracteresETextos\bin\Debug\5-CaracteresETextos.exe.config
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\5-CaracteresETextos\bin\Debug\5-CaracteresETextos.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\5-CaracteresETextos\bin\Debug\5-CaracteresETextos.pdb
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\5-CaracteresETextos\obj\Debug\5-CaracteresETextos.csprojAssemblyReference.cache
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\5-CaracteresETextos\obj\Debug\5-CaracteresETextos.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\5-CaracteresETextos\obj\Debug\5-CaracteresETextos.pdb

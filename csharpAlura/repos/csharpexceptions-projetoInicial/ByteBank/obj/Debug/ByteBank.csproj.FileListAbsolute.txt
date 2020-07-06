@@ -1,0 +1,6 @@
+C:\Users\HP-pavilion\source\repos\csharpexceptions-projetoInicial\ByteBank\bin\Debug\ByteBank.exe.config
+C:\Users\HP-pavilion\source\repos\csharpexceptions-projetoInicial\ByteBank\bin\Debug\ByteBank.exe
+C:\Users\HP-pavilion\source\repos\csharpexceptions-projetoInicial\ByteBank\bin\Debug\ByteBank.pdb
+C:\Users\HP-pavilion\source\repos\csharpexceptions-projetoInicial\ByteBank\obj\Debug\ByteBank.csprojAssemblyReference.cache
+C:\Users\HP-pavilion\source\repos\csharpexceptions-projetoInicial\ByteBank\obj\Debug\ByteBank.exe
+C:\Users\HP-pavilion\source\repos\csharpexceptions-projetoInicial\ByteBank\obj\Debug\ByteBank.pdb

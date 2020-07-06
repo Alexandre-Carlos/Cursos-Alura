@@ -1,0 +1,48 @@
+﻿using BarbeirosDeSucesso.Projeto.DAO;
+using BarbeirosDeSucesso.Projeto.Model;
+using System;
+//using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace BarbeirosDeSucesso.Projeto.Controller
+{
+    public class PalestranteController
+    {
+        PalestranteDB TesteDB = new PalestranteDB();
+        //(Nome, Especialidade, Telefone, Descricao, Foto, Ativo, DataCadastro)
+        public Palestrante InserirPalestrante(string nome, string especialidade, string telefone, string descricao, string foto, string ativo)
+        {
+            return new PalestranteDB().InserirPalestrante(nome, especialidade, telefone, descricao, foto, ativo);
+        }
+
+        public List<Palestrante> ConsultarPalestrantes()
+        {
+            return new PalestranteDB().ConsultarPalestrantes();
+        }
+
+        public List<Palestrante> ObterPalestranteId(int testemunhoId)
+        {
+            return new PalestranteDB().ObterPalestranteId(testemunhoId);
+        }
+
+        public Palestrante AprovarPalestrante(int palestranteId, string nome, string especialidade, string telefone, string descricao, string foto)
+        {
+            return new PalestranteDB().AprovarPalestrante(palestranteId, nome, especialidade, telefone, descricao, foto);
+        }
+
+
+        public Palestrante ExcluirPalestrante(int palestranteId)
+        {
+            return new PalestranteDB().ExcluirPalestrante(palestranteId);
+        }
+
+        public PalestranteController() { }
+
+        public List<Palestrante> ObterPalestranteAprovados()
+        {
+            return new PalestranteDB().ObterPalestrantesAprovados();
+        }
+    }
+}

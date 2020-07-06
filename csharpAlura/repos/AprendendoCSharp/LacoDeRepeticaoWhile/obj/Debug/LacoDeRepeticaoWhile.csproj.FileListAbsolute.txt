@@ -1,0 +1,5 @@
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\LacoDeRepeticaoWhile\bin\Debug\LacoDeRepeticaoWhile.exe.config
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\LacoDeRepeticaoWhile\bin\Debug\LacoDeRepeticaoWhile.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\LacoDeRepeticaoWhile\bin\Debug\LacoDeRepeticaoWhile.pdb
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\LacoDeRepeticaoWhile\obj\Debug\LacoDeRepeticaoWhile.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\LacoDeRepeticaoWhile\obj\Debug\LacoDeRepeticaoWhile.pdb

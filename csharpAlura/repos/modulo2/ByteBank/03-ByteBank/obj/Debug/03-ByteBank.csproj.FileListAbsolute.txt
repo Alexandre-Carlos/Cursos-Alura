@@ -1,0 +1,6 @@
+C:\Users\HP-pavilion\source\repos\ByteBank\03-ByteBank\bin\Debug\03-ByteBank.exe.config
+C:\Users\HP-pavilion\source\repos\ByteBank\03-ByteBank\bin\Debug\03-ByteBank.exe
+C:\Users\HP-pavilion\source\repos\ByteBank\03-ByteBank\bin\Debug\03-ByteBank.pdb
+C:\Users\HP-pavilion\source\repos\ByteBank\03-ByteBank\obj\Debug\03-ByteBank.csprojAssemblyReference.cache
+C:\Users\HP-pavilion\source\repos\ByteBank\03-ByteBank\obj\Debug\03-ByteBank.exe
+C:\Users\HP-pavilion\source\repos\ByteBank\03-ByteBank\obj\Debug\03-ByteBank.pdb

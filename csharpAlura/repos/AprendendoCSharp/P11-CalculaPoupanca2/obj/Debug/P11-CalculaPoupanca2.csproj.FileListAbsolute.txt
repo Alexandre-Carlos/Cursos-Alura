@@ -1,0 +1,6 @@
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\P11-CalculaPoupanca2\bin\Debug\P11-CalculaPoupanca2.exe.config
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\P11-CalculaPoupanca2\bin\Debug\P11-CalculaPoupanca2.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\P11-CalculaPoupanca2\bin\Debug\P11-CalculaPoupanca2.pdb
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\P11-CalculaPoupanca2\obj\Debug\P11-CalculaPoupanca2.csprojAssemblyReference.cache
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\P11-CalculaPoupanca2\obj\Debug\P11-CalculaPoupanca2.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\P11-CalculaPoupanca2\obj\Debug\P11-CalculaPoupanca2.pdb

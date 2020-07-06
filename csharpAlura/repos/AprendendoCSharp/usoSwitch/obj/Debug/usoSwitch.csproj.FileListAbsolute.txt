@@ -1,0 +1,6 @@
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\usoSwitch\bin\Debug\usoSwitch.exe.config
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\usoSwitch\bin\Debug\usoSwitch.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\usoSwitch\bin\Debug\usoSwitch.pdb
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\usoSwitch\obj\Debug\usoSwitch.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\usoSwitch\obj\Debug\usoSwitch.pdb
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\usoSwitch\obj\Debug\usoSwitch.csprojAssemblyReference.cache

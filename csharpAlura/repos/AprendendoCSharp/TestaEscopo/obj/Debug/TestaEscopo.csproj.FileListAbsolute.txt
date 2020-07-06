@@ -1,0 +1,5 @@
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\TestaEscopo\bin\Debug\TestaEscopo.exe.config
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\TestaEscopo\bin\Debug\TestaEscopo.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\TestaEscopo\bin\Debug\TestaEscopo.pdb
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\TestaEscopo\obj\Debug\TestaEscopo.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\TestaEscopo\obj\Debug\TestaEscopo.pdb

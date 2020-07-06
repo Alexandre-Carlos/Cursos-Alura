@@ -1,0 +1,13 @@
+C:\Users\HP-pavilion\source\repos\BarbeirosSucesso\BarbeirosDeSucesso\BarbeirosDeSucesso.Projeto\bin\BarbeirosDeSucesso.Projeto.dll
+C:\Users\HP-pavilion\source\repos\BarbeirosSucesso\BarbeirosDeSucesso\BarbeirosDeSucesso.Projeto\bin\BarbeirosDeSucesso.Projeto.pdb
+C:\Users\HP-pavilion\source\repos\BarbeirosSucesso\BarbeirosDeSucesso\BarbeirosDeSucesso.Projeto\bin\roslyn\csc.exe.config
+C:\Users\HP-pavilion\source\repos\BarbeirosSucesso\BarbeirosDeSucesso\BarbeirosDeSucesso.Projeto\bin\roslyn\csc.rsp
+C:\Users\HP-pavilion\source\repos\BarbeirosSucesso\BarbeirosDeSucesso\BarbeirosDeSucesso.Projeto\bin\roslyn\csi.rsp
+C:\Users\HP-pavilion\source\repos\BarbeirosSucesso\BarbeirosDeSucesso\BarbeirosDeSucesso.Projeto\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP-pavilion\source\repos\BarbeirosSucesso\BarbeirosDeSucesso\BarbeirosDeSucesso.Projeto\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP-pavilion\source\repos\BarbeirosSucesso\BarbeirosDeSucesso\BarbeirosDeSucesso.Projeto\bin\roslyn\vbc.exe.config
+C:\Users\HP-pavilion\source\repos\BarbeirosSucesso\BarbeirosDeSucesso\BarbeirosDeSucesso.Projeto\bin\roslyn\vbc.rsp
+C:\Users\HP-pavilion\source\repos\BarbeirosSucesso\BarbeirosDeSucesso\BarbeirosDeSucesso.Projeto\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP-pavilion\source\repos\BarbeirosSucesso\BarbeirosDeSucesso\BarbeirosDeSucesso.Projeto\obj\Debug\BarbeirosDeSucesso.Projeto.dll
+C:\Users\HP-pavilion\source\repos\BarbeirosSucesso\BarbeirosDeSucesso\BarbeirosDeSucesso.Projeto\obj\Debug\BarbeirosDeSucesso.Projeto.pdb
+C:\Users\HP-pavilion\source\repos\BarbeirosSucesso\BarbeirosDeSucesso\BarbeirosDeSucesso.Projeto\obj\Debug\BarbeirosDeSucesso.Projeto.csprojAssemblyReference.cache

@@ -1,0 +1,5 @@
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\6-AtribuicoesDeVariaveis\bin\Debug\6-AtribuicoesDeVariaveis.exe.config
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\6-AtribuicoesDeVariaveis\bin\Debug\6-AtribuicoesDeVariaveis.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\6-AtribuicoesDeVariaveis\bin\Debug\6-AtribuicoesDeVariaveis.pdb
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\6-AtribuicoesDeVariaveis\obj\Debug\6-AtribuicoesDeVariaveis.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\6-AtribuicoesDeVariaveis\obj\Debug\6-AtribuicoesDeVariaveis.pdb

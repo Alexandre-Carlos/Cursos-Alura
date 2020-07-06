@@ -1,0 +1,10 @@
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForms\bin\Debug\CursoWindowsForms.exe.config
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForms\bin\Debug\CursoWindowsForms.exe
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForms\bin\Debug\CursoWindowsForms.pdb
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.csprojAssemblyReference.cache
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Properties.Resources.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.GenerateResource.cache
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.CoreCompileInputs.cache
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.exe
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.pdb
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.frm_HelloWorld.resources

@@ -1,0 +1,6 @@
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\8-Condicionais\bin\Debug\8-Condicionais.exe.config
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\8-Condicionais\bin\Debug\8-Condicionais.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\8-Condicionais\bin\Debug\8-Condicionais.pdb
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\8-Condicionais\obj\Debug\8-Condicionais.csprojAssemblyReference.cache
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\8-Condicionais\obj\Debug\8-Condicionais.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\8-Condicionais\obj\Debug\8-Condicionais.pdb

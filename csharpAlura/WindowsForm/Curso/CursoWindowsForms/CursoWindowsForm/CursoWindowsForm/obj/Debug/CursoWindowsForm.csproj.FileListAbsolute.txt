@@ -1,0 +1,16 @@
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\bin\Debug\CursoWindowsForm.exe.config
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\bin\Debug\CursoWindowsForm.exe
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\bin\Debug\CursoWindowsForm.pdb
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.csprojAssemblyReference.cache
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.Frm_HelloWorld.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.Properties.Resources.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.csproj.GenerateResource.cache
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.csproj.CoreCompileInputs.cache
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.exe
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.pdb
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.Frm_DemonstracaoKey.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.Frm_ValidaSenha.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.Frm_Mascara.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.Frm_ValidaCPF.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.Frm_ValidaCPF2.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.Frm_Principal.resources

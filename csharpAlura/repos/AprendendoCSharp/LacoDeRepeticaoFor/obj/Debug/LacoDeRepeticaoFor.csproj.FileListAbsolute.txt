@@ -1,0 +1,6 @@
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\LacoDeRepeticaoFor\bin\Debug\LacoDeRepeticaoFor.exe.config
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\LacoDeRepeticaoFor\bin\Debug\LacoDeRepeticaoFor.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\LacoDeRepeticaoFor\bin\Debug\LacoDeRepeticaoFor.pdb
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\LacoDeRepeticaoFor\obj\Debug\LacoDeRepeticaoFor.csprojAssemblyReference.cache
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\LacoDeRepeticaoFor\obj\Debug\LacoDeRepeticaoFor.exe
+C:\Users\HP-pavilion\source\repos\AprendendoCSharp\LacoDeRepeticaoFor\obj\Debug\LacoDeRepeticaoFor.pdb

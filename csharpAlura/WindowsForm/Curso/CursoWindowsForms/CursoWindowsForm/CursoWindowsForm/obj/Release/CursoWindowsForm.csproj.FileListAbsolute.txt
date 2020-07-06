@@ -1,0 +1,15 @@
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\bin\Release\CursoWindowsForm.exe.config
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\bin\Release\CursoWindowsForm.exe
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\bin\Release\CursoWindowsForm.pdb
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Release\CursoWindowsForm.Frm_DemonstracaoKey.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Release\CursoWindowsForm.Frm_HelloWorld.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Release\CursoWindowsForm.Frm_Mascara.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Release\CursoWindowsForm.Frm_Principal.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Release\CursoWindowsForm.Frm_ValidaCPF.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Release\CursoWindowsForm.Frm_ValidaCPF2.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Release\CursoWindowsForm.Frm_ValidaSenha.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Release\CursoWindowsForm.Properties.Resources.resources
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Release\CursoWindowsForm.csproj.GenerateResource.cache
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Release\CursoWindowsForm.csproj.CoreCompileInputs.cache
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Release\CursoWindowsForm.exe
+C:\projetos\Cursos alura\csharp alura\WindowsForm\Curso\CursoWindowsForms\CursoWindowsForm\CursoWindowsForm\obj\Release\CursoWindowsForm.pdb
