@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<!-- saved from url=(0123)https://blog.caelum.com.br/css-menos-sofrido-com-sass/?fbclid=IwAR3fZP5AzmcMOpaQa8YRss6vM6RLV6QgqnDWaYPruM1uwfaNGPAeSuL_PBM -->
+<html lang="pt-BR" prefix="og: http://ogp.me/ns#" style="" class=" js csstransforms3d csstransitions" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>CSS menos sofrido com Sass - Blog da Caelum: desenvolvimento, web, mobile, UX e ScrumBlog da Caelum: desenvolvimento, web, mobile, UX e Scrum</title>
+
+<link rel="pingback" href="https://blog.caelum.com.br/xmlrpc.php">
+
+<!-- This site is optimized with the Yoast SEO plugin v10.0.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://blog.caelum.com.br/css-menos-sofrido-com-sass/">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CSS menos sofrido com Sass - Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum">
+<meta property="og:description" content="Artigo para quem não conhece ou estava adiando os estudos dessa poderosíssima linguagem pré-processador. Mexa com Sass (no Windows também) e seja mais produtivo! Nesse post abordo rapidamente duas features dessa linguagem e algumas perguntas que …">
+<meta property="og:url" content="https://blog.caelum.com.br/css-menos-sofrido-com-sass/">
+<meta property="og:site_name" content="Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum">
+<meta property="article:tag" content="css">
+<meta property="article:tag" content="front-end">
+<meta property="article:tag" content="sass">
+<meta property="article:section" content="Front-end">
+<meta property="article:published_time" content="2015-11-04T10:42:30-02:00">
+<meta property="article:modified_time" content="2016-09-07T02:22:49-03:00">
+<meta property="og:updated_time" content="2016-09-07T02:22:49-03:00">
+<meta property="og:image" content="https://i0.wp.com/blog.caelum.com.br/wp-content/uploads/2055/10/Sass_Logo_Color.svg_.png?fit=2000%2C1500&amp;ssl=1">
+<meta property="og:image:secure_url" content="https://i0.wp.com/blog.caelum.com.br/wp-content/uploads/2055/10/Sass_Logo_Color.svg_.png?fit=2000%2C1500&amp;ssl=1">
+<meta property="og:image:width" content="2000">
+<meta property="og:image:height" content="1500">
+<meta property="og:image:alt" content="Logo Sass">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="Artigo para quem não conhece ou estava adiando os estudos dessa poderosíssima linguagem pré-processador. Mexa com Sass (no Windows também) e seja mais produtivo! Nesse post abordo rapidamente duas features dessa linguagem e algumas perguntas que […]">
+<meta name="twitter:title" content="CSS menos sofrido com Sass - Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum">
+<meta name="twitter:image" content="https://i0.wp.com/blog.caelum.com.br/wp-content/uploads/2055/10/Sass_Logo_Color.svg_.png?fit=2000%2C1500&amp;ssl=1">
+<div class="fit-vids-style">­<style>               .fluid-width-video-wrapper {                 width: 100%;                              position: relative;                       padding: 0;                            }                                                                                   .fluid-width-video-wrapper iframe,        .fluid-width-video-wrapper object,        .fluid-width-video-wrapper embed {           position: absolute;                       top: 0;                                   left: 0;                                  width: 100%;                              height: 100%;                          }                                       </style></div><script type="text/javascript" async="" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/analytics.js.download"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","url":"https://blog.caelum.com.br/","sameAs":[],"@id":"https://blog.caelum.com.br/#organization","name":"Caelum","logo":""}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="dns-prefetch" href="https://s0.wp.com/">
+<link rel="dns-prefetch" href="https://secure.gravatar.com/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="Feed para Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum »" href="https://blog.caelum.com.br/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum »" href="https://blog.caelum.com.br/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum » CSS menos sofrido com Sass" href="https://blog.caelum.com.br/css-menos-sofrido-com-sass/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.caelum.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.1"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="theme-stylesheet-css" href="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="woo-layout-css" href="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/layout.css" type="text/css" media="all">
+<link rel="stylesheet" id="prism-theme-css" href="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/prism-css.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="social-logos-css" href="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/social-logos.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/jetpack.css" type="text/css" media="all">
+<script type="text/javascript" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/jquery.js.download"></script>
+<script type="text/javascript" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/jquery-migrate.min.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/related-posts.min.js.download"></script>
+<script type="text/javascript" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/fitvids.min.js.download"></script>
+<script type="text/javascript" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/modernizr.min.js.download"></script>
+<script type="text/javascript" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/general.js.download"></script>
+<script type="text/javascript" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/spin.min.js.download"></script><style type="text/css"></style>
+<script type="text/javascript" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/jquery.spin.min.js.download"></script>
+<link rel="https://api.w.org/" href="https://blog.caelum.com.br/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blog.caelum.com.br/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blog.caelum.com.br/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.4.1">
+<link rel="shortlink" href="https://wp.me/p8tqQy-1RO">
+<link rel="alternate" type="application/json+oembed" href="https://blog.caelum.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.caelum.com.br%2Fcss-menos-sofrido-com-sass%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://blog.caelum.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.caelum.com.br%2Fcss-menos-sofrido-com-sass%2F&amp;format=xml">
+<link rel="stylesheet" type="text/css" href="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/all.css"><!--[if IE]><link rel="stylesheet" type="text/css" href="https://blog.caelum.com.br/wp-content/plugins/highlight-source-pro/ie.css" /><![endif]--><script type="text/javascript" data-cfasync="false">var _mmunch = {'front': false, 'page': false, 'post': false, 'category': false, 'author': false, 'search': false, 'attachment': false, 'tag': false};_mmunch['post'] = true; _mmunch['postData'] = {"ID":7180,"post_name":"css-menos-sofrido-com-sass","post_title":"CSS menos sofrido com Sass","post_type":"post","post_author":"93","post_status":"publish"}; _mmunch['postCategories'] = [{"term_id":810,"name":"Front-end","slug":"front-end","term_group":0,"term_taxonomy_id":887,"taxonomy":"category","description":"","parent":0,"count":78,"filter":"raw","cat_ID":810,"category_count":78,"category_description":"","cat_name":"Front-end","category_nicename":"front-end","category_parent":0}]; _mmunch['postTags'] = [{"term_id":389,"name":"css","slug":"css","term_group":0,"term_taxonomy_id":441,"taxonomy":"post_tag","description":"","parent":0,"count":13,"filter":"raw"},{"term_id":1137,"name":"front-end","slug":"front-end","term_group":0,"term_taxonomy_id":1214,"taxonomy":"post_tag","description":"","parent":0,"count":10,"filter":"raw"},{"term_id":1323,"name":"sass","slug":"sass","term_group":0,"term_taxonomy_id":1396,"taxonomy":"post_tag","description":"","parent":0,"count":3,"filter":"raw"}]; _mmunch['postAuthor'] = {"name":"Natan Souza","ID":93};</script><script data-cfasync="false" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/site.js.download" id="mailmunch-script" data-plugin="mc_mm" data-mailmunch-site-id="400098" async=""></script>
+<link rel="dns-prefetch" href="https://v0.wordpress.com/">
+<link rel="dns-prefetch" href="https://i0.wp.com/">
+<link rel="dns-prefetch" href="https://i1.wp.com/">
+<link rel="dns-prefetch" href="https://i2.wp.com/">
+<style type="text/css">img#wpstats{display:none}</style>
+<!-- Theme version -->
+<meta name="generator" content="On Topic 1.1.2">
+<meta name="generator" content="WooFramework 5.5.5">
+
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<!--  Mobile viewport scale | Disable user zooming as the layout is optimised -->
+<meta content="initial-scale=1.0; maximum-scale=1.0; user-scalable=no" name="viewport">
+<!--[if lt IE 9]>
+<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+		<link rel="amphtml" href="https://blog.caelum.com.br/css-menos-sofrido-com-sass/amp/"><style type="text/css" id="syntaxhighlighteranchor"></style>
+			<style type="text/css" id="wp-custom-css">
+				/*
+Você pode adicionar seu próprio CSS aqui.
+
+Clique no ícone de ajuda acima para saber mais.
+*/
+
+/* author Alex feat Mairo ajuste no blockquote */
+.post .entry blockquote {
+    border-left: 5px solid #ccc;
+    padding-left: 25px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+}
+
+.post .entry blockquote:before {
+	display: none;
+}
+
+.post .entry blockquote p {
+	margin: 0px
+}
+			</style>
+		
+<!-- Woo Custom Styling -->
+<style type="text/css">
+body { background: #ffffff !important; }
+.entry a, .home-tabber li a { color: #7D95A5 !important; }
+.entry a:hover, .home-tabber li a:hover { color: #5A7C92 !important; }
+a.button, a.comment-reply-link, #commentform #submit, #contact-page .submit { background: #7D95A5 !important; }
+a.button:hover, a.button.hover, a.button.active, a.comment-reply-link:hover, #commentform #submit:hover, #contact-page .submit:hover { background: #7D95A5 !important; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
+</style>
+
+<!-- Google Webfonts -->
+<link href="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/css" rel="stylesheet" type="text/css">
+
+<!-- Woo Custom Typography -->
+<style type="text/css">
+body { font:normal 1.6em/1.9em 'Merriweather', arial, sans-serif;color:#1c1c1c; }
+#navigation ul.nav > li > a { font:300 1.1em/1em 'Varela', arial, sans-serif;color:#FFFFFF; }
+.page header h1 { font:bold italic 3.5em/1em 'Open Sans', arial, sans-serif;color:#000000; }
+.post header h1, .post header h1 a:link, .post header h1 a:visited { font:bold 3em/1em 'PT Sans', arial, sans-serif;color:#25343F; }
+.post header h1 a:link, .post header h1 a:visited { font:bold 0.7em/1em 'PT Sans', arial, sans-serif;color:#000000; }
+.post-meta { font:300 0.9em/1em 'Merriweather', arial, sans-serif;color:#828282; }
+.entry, .entry p { font:300 1em/1.5em 'Merriweather', arial, sans-serif;color:#1c1c1c; } h1, h2, h3, h4, h5, h6 { font-family: Merriweather, arial, sans-serif; }
+</style>
+
+<!-- Alt Stylesheet -->
+<link href="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/default.css" rel="stylesheet" type="text/css">
+
+<!-- Custom Favicon -->
+<link rel="shortcut icon" href="https://blog.caelum.com.br/wp-content/uploads/2006/08/favicon.ico">
+<!-- Options Panel Custom CSS -->
+<style type="text/css">
+.entry a, .home-tabber li a { color:#068AE0 !important; }
+
+</style>
+
+
+<!-- Woo Shortcodes CSS -->
+<link href="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/shortcodes.css" rel="stylesheet" type="text/css">
+
+<!-- Custom Stylesheet -->
+<link href="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/custom.css" rel="stylesheet" type="text/css">
+
+
+	<style>
+	
+		
+		#header  {
+			
+							background-color: #081c27;
+						
+							background-image: url(https://blog.caelum.com.br/wp-content/uploads/2006/08/bg-02.jpg);
+						
+							background-position: top left;
+						
+			background-repeat: no-repeat;
+			background-size: cover;
+			
+		}
+	
+				
+			@media only screen and (min-width: 768px) {
+				
+				.page #post-entries a, .single-post #post-entries a, .single-product #post-entries a  {
+					background-color: #081c27;
+				}
+				
+			}
+			
+			
+	</style>
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-270161-5');
+</script>
+<link rel="stylesheet" type="text/css" href="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/styles.css"></head>
+<body class="post-template-default single single-post postid-7180 single-format-standard chrome alt-style-default layout-default" id="error-page">
+
+<div id="wrapper" class="loaded">
+	<div id="inner-wrapper">
+
+    
+	<header id="header">
+		
+	<a id="logo" href="https://blog.caelum.com.br/" title="Aprenda sobre tecnologia com a Caelum. Artigos de programação, web, mobile, ux e agile">
+						<img src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/caelum-logo.png" alt="Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum">
+			
+	</a>
+
+
+
+		<span class="nav-toggle"><a href="https://blog.caelum.com.br/css-menos-sofrido-com-sass/?fbclid=IwAR3fZP5AzmcMOpaQa8YRss6vM6RLV6QgqnDWaYPruM1uwfaNGPAeSuL_PBM#navigation"><span>Navigation</span></a></span>
+		
+		<!--
+	    <hgroup>
+			<h1 class="site-title"><a href="https://blog.caelum.com.br/">Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum</a></h1>
+			<h2 class="site-description">Aprenda sobre tecnologia com a Caelum. Artigos de programação, web, mobile, ux e agile</h2>
+		</hgroup>
+		-->
+
+                
+        
+        <div class="search_main fix"><form role="search" class="searchform" method="get" id="searchform" action="https://blog.caelum.com.br/">
+				<div>
+					<label class="screen-reader-text" for="s">Pesquisar por:</label>
+					<input type="text" value="" name="s" class="field s" placeholder="Busca..." id="s">
+					<input type="submit" class="search-submit" id="searchsubmit" value="Pesquisar">
+				</div>
+			</form></div>
+		<nav id="navigation" class="col-full" role="navigation">
+
+			<section class="menus">
+
+			<a href="https://blog.caelum.com.br/" class="nav-home"><span>Home</span></a>
+			
+			<div class="menu-toggle"><h3>Categorias</h3><ul id="menu-categorias" class="nav main-nav"><li id="menu-item-8609" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8609"><a href="https://blog.caelum.com.br/category/programacao/">Programação</a></li>
+<li id="menu-item-4145" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-4145"><a href="https://blog.caelum.com.br/category/front-end/">Front-end</a></li>
+<li id="menu-item-8610" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8610"><a href="https://blog.caelum.com.br/category/mobile/">Mobile</a></li>
+<li id="menu-item-7474" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7474"><a href="https://blog.caelum.com.br/category/design-ux/">Design &amp; UX</a></li>
+<li id="menu-item-4143" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4143"><a href="https://blog.caelum.com.br/category/agile/">Agile</a></li>
+<li id="menu-item-4142" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4142"><a href="https://blog.caelum.com.br/category/arquitetura/">Arquitetura</a></li>
+<li id="menu-item-4141" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4141"><a href="https://blog.caelum.com.br/category/inovacao/">Inovação</a></li>
+</ul></div><div class="menu-toggle"><h3>Conheça também</h3><ul id="menu-sec-menu" class="nav main-nav"><li id="menu-item-6142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6142"><a href="https://www.caelum.com.br/">Cursos Caelum</a></li>
+<li id="menu-item-6143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6143"><a href="https://www.alura.com.br/">Cursos online Alura</a></li>
+<li id="menu-item-6144" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6144"><a href="https://www.casadocodigo.com.br/">Editora Casa do Código</a></li>
+</ul></div>	        <ul class="nav rss">
+	            
+				
+	        </ul>
+
+	    	</section><!--/.menus-->
+
+	    	 <div id="connect">
+<div class="social">
+<a href="https://blog.caelum.com.br/feed/" title="Subscribe to our RSS feed" class="subscribe"><span>Subscribe to our RSS feed</span></a>
+<a href="https://twitter.com/caelum" title="Follow Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum on Twitter" class="twitter"><span>Follow Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum on Twitter</span></a>
+<a href="https://www.facebook.com/caelumbr" title="Like Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum on Facebook" class="facebook"><span>Like Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum on Facebook</span></a>
+</div>
+</div>
+
+	        <!-- <a href="#top" class="nav-close"><span>Return to Content</span></a> -->
+
+		</nav><!-- /#navigation -->
+
+				
+	</header><!-- /#header -->
+
+	
+    <div id="content" class="col-full">
+
+    	
+		<section id="main">
+        			<article class="post-7180 post type-post status-publish format-standard has-post-thumbnail hentry category-front-end tag-css tag-front-end tag-sass">
+
+				
+                <header style="background-image: url(https://i0.wp.com/blog.caelum.com.br/wp-content/uploads/2055/10/Sass_Logo_Color.svg_.png?fit=2000%2C1500&amp;ssl=1); background-size: cover; background-position: center center;">
+                
+                	<section class="header-content">
+
+	                	<h1>CSS menos sofrido com Sass</h1>
+                		<aside class="post-meta">
+	<span class="post-date">Postado dia 04/11/2015</span>
+	<span class="post-author">por Natan Souza</span>
+	<span class="post-category">em <a href="https://blog.caelum.com.br/category/front-end/" rel="category tag">Front-end</a></span>
+	<span class="post-comments"><a href="https://blog.caelum.com.br/css-menos-sofrido-com-sass/#comments">37</a></span>
+	</aside>
+
+                	</section>
+                	
+                	<!--
+                	<nav id="post-entries" class="fix">
+	        		    <div class="nav-prev fl"><a href="https://blog.caelum.com.br/principios-ageis-revisitados-tecnicas-e-praticas/" rel="prev">Princípios ágeis revisitados: técnicas e práticas</a></div>
+	        		    <div class="nav-next fr"><a href="https://blog.caelum.com.br/encontrando-smells-no-seu-codigo/" rel="next">Encontrando smells no seu código</a></div>
+	        		</nav>
+	        	-->
+                	
+                	                	
+<!--                 	<a href="#" title="#"><img src="https://i0.wp.com/blog.caelum.com.br/wp-content/uploads/2055/10/Sass_Logo_Color.svg_.png?fit=2000%2C1500&#038;ssl=1" alt="" /></a> -->
+
+                </header>
+
+                <section class="entry fix">
+					
+                	<div class="mailmunch-forms-before-post" style="display: none !important;"></div><p>Artigo para quem não conhece ou estava adiando os estudos dessa poderosíssima linguagem pré-processador. Mexa com <strong>Sass</strong>&nbsp;(no Windows também) e seja mais produtivo! Nesse post abordo rapidamente duas features dessa linguagem e algumas perguntas que já me fizeram nas&nbsp;aulas que ministro aqui na Caelum.</p>
+<p><span style="font-weight: 400;">O <strong>Sass</strong>&nbsp;é uma linguagem baseada em CSS (opa, aí já facilita, não é mesmo?) que depois de compilada gera o bom e velho CSS.</span></p>
+<p><span style="font-weight: 400;">P</span><span style="font-weight: 400;">ossui duas sintaxes diferentes, o SASS e o SCSS.<br>
+</span><span style="font-weight: 400;">Essa última é a&nbsp;que acho mais bacana pela semelhança com CSS normal, a outra é atrelada a indentação.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Duas coisas bacanas que o Sass possui, que você pode ir testando no <a href="http://sassmeister.com/" target="_blank">SassMeister</a>:</span></p>
+<h2>Variáveis</h2>
+<p>Sabe quando você repete a mesma cor no seu CSS umas 500 vezes, aí depois precisa mudar, aí tem que ficar procurando ou dar um <i>Replace</i>? Seria bom se o CSS tivesse como criar variável, atualmente não é possível, mas no Sass é!</p>
+<p>Código em Scss:</p>
+<pre class="brush: css; title: ; notranslate" title="">    // Crio a variável
+    $cor-padrao: #069;
+    
+    .btn-primario {
+      // aqui eu chamo a variável:
+      background: $cor-padrao;
+    }
+    
+    .texto-principal {
+      // chamo aqui também:
+      color: $cor-padrao;
+    }
+    
+  </pre>
+<p>Código compilado, já em CSS:</p>
+<pre class="brush: css; title: ; notranslate" title="">    .btn-primario {
+      background: #069;
+    }
+
+    .texto-principal {
+      color: #069;
+    }
+  </pre>
+<p>E para quem reparou, sim, no Sass dá para você comentar com //, mas esse comentário não vai&nbsp;para o CSS final.</p>
+<h2>Reutilizando código com Mixins</h2>
+<p>Tem aquele trecho de código que é repetido no CSS inteiro, aí se você precisar colocar uma declaração a mais, teria que alterar em vários lugares.</p>
+<pre class="brush: css; title: ; notranslate" title="">    /* CSS normal */
+    .desfoque {
+      -webkit-filter: blur(20px);
+      filter: blur(20px);
+    }
+  </pre>
+<p>No Sass você pode reutilizar esse código em vários lugares <strong>criando um mixin</strong>:</p>
+<pre class="brush: css; title: ; notranslate" title="">    // Scss
+
+    // Crio um mixin com o '@' e dou um nome para ele :
+    @mixin desfoque {
+      -webkit-filter: blur(20px);
+      filter: blur(20px);
+    }
+    
+    // Agora para incluir :
+    .painel img {
+      @include desfoque;
+      max-width: 100%;
+    }
+  </pre>
+<p>O&nbsp;CSS compilado fica:</p>
+<pre class="brush: css; title: ; notranslate" title="">    .painel img {
+      -webkit-filter: blur(20px);
+      filter: blur(20px);
+      max-width: 100%;
+    }
+  </pre>
+<p>&nbsp;</p>
+<p>Agora algumas perguntas e respostas:</p>
+<p>&nbsp;</p>
+<h3>Bacana, mas há outros pré-processadores além do Sass?</h3>
+<p>Sim! Os mais conhecidos além do Sass são o <a href="http://lesscss.org/">LESS</a> e o <a href="https://learnboost.github.io/stylus/">Stylus</a>. Temos até esse artigo aqui onde o <a href="https://blog.caelum.com.br/css-facil-flexivel-e-dinamico-com-less/">Sérgio Lopes comenta sobre o LESS</a>.</p>
+<p>&nbsp;</p>
+<h3>Mas qual é o melhor?</h3>
+<p>Essa pergunta é meio <a href="https://www.youtube.com/watch?v=PORknrd-cv8" target="_blank">polêmica</a>. Conheço só o Sass e o LESS, mas prefiro o primeiro por achar que é um pouco mais “certinho”. Por exemplo, enquanto no Sass para criar um mixin você usa o <code>@mixin</code> e o inclui dando um <code>@include</code>, no LESS você cria uma classe CSS comum e chama ela lá meio da sua regra CSS.</p>
+<p>&nbsp;</p>
+<h3>Preciso aprender todos?</h3>
+<p>Diria que se você aprende um, você automaticamente sabe 80% de todos. Então, não. Segura na mão de um deles e segue a vida. Mas acho válido ao menos conhecer os outros.</p><div class="mailmunch-forms-in-post-middle" style="display: none !important;"></div>
+<p>&nbsp;</p>
+<h3>Besteira, prefiro o LESS</h3>
+<p>E eu prefiro Windows. São só ferramentas, muita calma, seu cliente ou chefe não se importa com qual ferramenta você utiliza, ele quer é o resultado.</p>
+<p>Outro ponto pró-Sass:</p>
+<p><img data-attachment-id="7182" data-permalink="https://blog.caelum.com.br/css-menos-sofrido-com-sass/last-nail-in-less-coffin/" data-orig-file="https://i0.wp.com/blog.caelum.com.br/wp-content/uploads/2055/10/last-nail-in-less-coffin.jpg?fit=395%2C298&amp;ssl=1" data-orig-size="395,298" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="last-nail-in-less-coffin" data-image-description="" data-medium-file="https://i0.wp.com/blog.caelum.com.br/wp-content/uploads/2055/10/last-nail-in-less-coffin.jpg?fit=300%2C226&amp;ssl=1" data-large-file="https://i0.wp.com/blog.caelum.com.br/wp-content/uploads/2055/10/last-nail-in-less-coffin.jpg?fit=395%2C298&amp;ssl=1" class="aligncenter size-full wp-image-7182" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/last-nail-in-less-coffin.jpg" alt="Bootstrap fechando o caixão do LESS" width="395" height="298" srcset="https://i0.wp.com/blog.caelum.com.br/wp-content/uploads/2055/10/last-nail-in-less-coffin.jpg?w=395&amp;ssl=1 395w, https://i0.wp.com/blog.caelum.com.br/wp-content/uploads/2055/10/last-nail-in-less-coffin.jpg?resize=300%2C226&amp;ssl=1 300w" sizes="(max-width: 395px) 100vw, 395px" data-recalc-dims="1"></p>
+<p>&nbsp;</p>
+<p>O <a href="http://getbootstrap.com/">Bootstrap</a> na versão 4, atualmente em Alpha, trocou o LESS pelo Sass. Quando anunciaram essa troca, muita gente comentou que esse seria o último prego no caixão do LESS. Acredito&nbsp;que concorrência é sempre bom para todo mundo.</p>
+<p>&nbsp;</p>
+<h3>Pré-processador é só isso? Uma maneira mais bacana de escrever CSS?</h3>
+<p>Sim! Só as variáveis já deixam tudo mais produtivo, aí tem os mixins, extends, placeholder, funções, etc. Tudo lindo.</p>
+<p>&nbsp;</p>
+<h3>Sass então deixa meu CSS melhor! Que legal!</h3>
+<p><em>Não!</em> O Sass não vai deixar seu CSS melhor ou mais rápido, boas práticas no CSS valem para o Sass também! Coisas como não repetir código e tentar não ficar sobrescrevendo declarações.</p>
+<p>&nbsp;</p>
+<h3>Preciso usar Linux ou Mac para trabalhar com Sass?</h3>
+<p>Também não! Se for interessante um tutorial de <strong><a href="https://blog.caelum.com.br/tutorial-instalando-usando-sass-no-windows/">como trabalhar com Sass no Windows</a></strong> posso criar outro artigo depois. Só dê um “alô” nos comentários. <em>(Edit: a galera pediu, fizemos!)</em></p>
+<p>&nbsp;</p>
+<h3>Outros recursos do Sass?</h3>
+<p>Há muitos recursos interessantes que o Sass possui como:</p>
+<ul>
+<li>Funções de cor;</li>
+<li>Extend;</li>
+<li>Aninhamento de seletores CSS;</li>
+<li>Operações matemáticas;</li>
+<li>Etc.</li>
+</ul>
+<p>Existe até um framework chamado <a href="http://compass-style.org/" target="_blank">Compass</a>, que ficou bem conhecido por criar <i>sprites CSS</i> de forma automática,&nbsp;é realmente mágico quando você usa isso&nbsp;na primeira vez.</p>
+<p>&nbsp;</p>
+<p>Eu mostro o Compass e alguns desses recursos no <strong>curso online de Sass</strong> no Alura, <a href="https://www.alura.com.br/curso-online-sass" target="_blank">dá uma olhada no conteúdo</a> do curso depois. Se gostar de ler, escrevi um <a href="https://www.casadocodigo.com.br/products/livro-sass">livro de Sass</a> em que mostro todos esses recursos também.</p>
+<p>Você usa/usava qual pré-processador? Não utiliza nenhum? Por qual motivo?&nbsp;E para você que já trabalha com Sass, prefere qual das sintaxes?</p>
+<p>&nbsp;</p>
+<div class="mailmunch-forms-after-post" style="display: none !important;"></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Compartilhe isso:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-7180" class="share-twitter sd-button share-icon no-text" href="https://blog.caelum.com.br/css-menos-sofrido-com-sass/?share=twitter" target="_blank" title="Clique para compartilhar no Twitter"><span></span><span class="sharing-screen-reader-text">Clique para compartilhar no Twitter(abre em nova janela)</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-7180" class="share-facebook sd-button share-icon no-text" href="https://blog.caelum.com.br/css-menos-sofrido-com-sass/?share=facebook" target="_blank" title="Clique para compartilhar no Facebook"><span></span><span class="sharing-screen-reader-text">Clique para compartilhar no Facebook(abre em nova janela)</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
+	<h3 class="jp-relatedposts-headline"><em>Relacionado</em></h3>
+<div class="jp-relatedposts-items jp-relatedposts-items-minimal jp-relatedposts-grid "><p class="jp-relatedposts-post jp-relatedposts-post0" data-post-id="7223" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://blog.caelum.com.br/tutorial-instalando-usando-sass-no-windows/" title="Tutorial: instalando e usando o Sass no Windows
+
+Uma coisa que eu achava antes de mexer com Sass é que eu precisava usar Linux ou Mac, ou que daria muito trabalho instalar tudo no meu PC. Mas dá pra trabalhar com Sass no Windows sim! E a galera pediu no post &quot;CSS menos sofrido com Sass&quot; um guia de…" rel="nofollow" data-origin="7180" data-position="0">Tutorial: instalando e usando o Sass no Windows</a></span><span class="jp-relatedposts-post-date">26/01/2016</span><span class="jp-relatedposts-post-context">In “Front-end”</span></p><p class="jp-relatedposts-post jp-relatedposts-post1" data-post-id="7751" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://blog.caelum.com.br/desenhando-a-logo-da-caelum-com-css/" title="Desenhando a logo da Caelum com CSS
+
+Além de instrutor da Caelum, eu também sou editor de conteúdo das redes sociais da própria Caelum, da Alura e da Casa do Código. Além de criar e gerenciar o conteúdo que é postado, faz parte do meu trabalho interagir com as pessoas e ver o que elas estão falando…" rel="nofollow" data-origin="7180" data-position="1">Desenhando a logo da Caelum com CSS</a></span><span class="jp-relatedposts-post-date">11/07/2016</span><span class="jp-relatedposts-post-context">In “Front-end”</span></p><p class="jp-relatedposts-post jp-relatedposts-post2" data-post-id="5097" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://blog.caelum.com.br/css-facil-flexivel-e-dinamico-com-less/" title="CSS fácil, flexível e dinâmico com LESS
+
+CSS é o padrão para estilização visual de páginas Web, então não temos muito como fugir dele. Mas ele é cheio de limitações e isso empaca o desenvolvimento. Conheça o LESS e seja mais produtivo no desenvolvimento Web. O LESS é uma linguagem baseada em CSS (mesma ideia, sintaxe familiar)…" rel="nofollow" data-origin="7180" data-position="2">CSS fácil, flexível e dinâmico com LESS</a></span><span class="jp-relatedposts-post-date">21/06/2012</span><span class="jp-relatedposts-post-context">In “Front-end”</span></p></div></div>					
+
+
+<a class="share-social" href="https://www.alura.com.br/" style="padding: 16px">
+<img src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/alura-logo.1465499610.svg" alt="Alura" style="margin-right: 16px">
+<strong style="">Estude online na Alura</strong>
+<p style="margin: 12px 0 0 0">Programação, Mobile, Front-end, Design &amp; UX, Infraestrutura e Business</p>
+</a>
+
+					<div class="tags">Tags: <a href="https://blog.caelum.com.br/tag/css/" rel="tag">css</a>, <a href="https://blog.caelum.com.br/tag/front-end/" rel="tag">front-end</a>, <a href="https://blog.caelum.com.br/tag/sass/" rel="tag">sass</a></div>
+				</section>
+
+            </article><!-- .post -->
+
+						<aside id="post-author" class="fix">
+				<div class="profile-image">
+					<img alt="" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/0147b4d33ec12396f052efe2cd79be8b.jpeg" srcset="https://secure.gravatar.com/avatar/0147b4d33ec12396f052efe2cd79be8b?s=180&amp;r=g 2x" class="avatar avatar-90 photo" height="90" width="90">				</div>
+				<div class="profile-content">
+					<h3 class="title">
+						Natan Souza						
+											</h3>
+
+									</div><!-- .post-entries -->
+			</aside><!-- .post-author-box -->
+			
+			
+				
+            
+
+<!-- You can start editing here. -->
+
+
+<div id="comments">
+
+			<h3>37 Comentários</h3>
+
+		<ol class="commentlist">
+
+			
+		<li class="comment even thread-even depth-1">
+
+	    	<a name="comment-331245"></a>
+
+	      	<div id="li-comment-331245" class="comment-container">
+
+					                <div class="comment-avatar"><img alt="" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/42416845d95e0bed7aabe591a1f1fa56.jpeg" srcset="https://secure.gravatar.com/avatar/42416845d95e0bed7aabe591a1f1fa56?s=100&amp;r=g 2x" class="photo avatar avatar-50 photo" height="50" width="50"></div>
+	            
+		      	<div class="comment-head">
+
+	                <span class="name">
+
+
+	
+	<meta name="viewport" content="width=device-width">
+		<meta name="robots" content="noindex,follow">
+	<title>Erro › WordPress</title>
+	<style type="text/css">
+		html {
+			background: #f1f1f1;
+		}
+		body {
+			background: #fff;
+			color: #444;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+			margin: 2em auto;
+			padding: 1em 2em;
+			max-width: 700px;
+			-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+		}
+		h1 {
+			border-bottom: 1px solid #dadada;
+			clear: both;
+			color: #666;
+			font-size: 24px;
+			margin: 30px 0 0 0;
+			padding: 0;
+			padding-bottom: 7px;
+		}
+		#error-page {
+			margin-top: 50px;
+		}
+		#error-page p,
+		#error-page .wp-die-message {
+			font-size: 14px;
+			line-height: 1.5;
+			margin: 25px 0 20px;
+		}
+		#error-page code {
+			font-family: Consolas, Monaco, monospace;
+		}
+		ul li {
+			margin-bottom: 10px;
+			font-size: 14px ;
+		}
+		a {
+			color: #0073aa;
+		}
+		a:hover,
+		a:active {
+			color: #00a0d2;
+		}
+		a:focus {
+			color: #124964;
+			-webkit-box-shadow:
+				0 0 0 1px #5b9dd9,
+				0 0 2px 1px rgba(30, 140, 190, 0.8);
+			box-shadow:
+				0 0 0 1px #5b9dd9,
+				0 0 2px 1px rgba(30, 140, 190, 0.8);
+			outline: none;
+		}
+		.button {
+			background: #f7f7f7;
+			border: 1px solid #ccc;
+			color: #555;
+			display: inline-block;
+			text-decoration: none;
+			font-size: 13px;
+			line-height: 2;
+			height: 28px;
+			margin: 0;
+			padding: 0 10px 1px;
+			cursor: pointer;
+			-webkit-border-radius: 3px;
+			-webkit-appearance: none;
+			border-radius: 3px;
+			white-space: nowrap;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing:    border-box;
+			box-sizing:         border-box;
+
+			-webkit-box-shadow: 0 1px 0 #ccc;
+			box-shadow: 0 1px 0 #ccc;
+			vertical-align: top;
+		}
+
+		.button.button-large {
+			height: 30px;
+			line-height: 2.15384615;
+			padding: 0 12px 2px;
+		}
+
+		.button:hover,
+		.button:focus {
+			background: #fafafa;
+			border-color: #999;
+			color: #23282d;
+		}
+
+		.button:focus {
+			border-color: #5b9dd9;
+			-webkit-box-shadow: 0 0 3px rgba(0, 115, 170, 0.8);
+			box-shadow: 0 0 3px rgba(0, 115, 170, 0.8);
+			outline: none;
+		}
+
+		.button:active {
+			background: #eee;
+			border-color: #999;
+			-webkit-box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, 0.5);
+			box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, 0.5);
+		}
+
+			</style>
+
+
+	<div class="wp-die-message"><p>Há um erro crítico no seu site.</p><p><a href="https://wordpress.org/support/article/debugging-in-wordpress/">Aprenda mais sobre depuração no WordPress.</a></p></div>
+
+	<script type="text/javascript" src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/e-202019.js.download" async="async" defer="defer"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.1.2',blog:'125225402',post:'7180',tz:'-3',srv:'blog.caelum.com.br'} ]);
+	_stq.push([ 'clickTrackerInit', '125225402', '7180' ]);
+</script>
+</span></div></div></li></ol></div></section></div></div></div><img src="./CSS menos sofrido com Sass - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/g.gif" alt=":)" width="6" height="5" id="wpstats"></body></html>

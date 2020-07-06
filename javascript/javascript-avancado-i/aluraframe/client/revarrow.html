@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>TITULO</h1>
+    <p>PARAGRAFO</p>
+    <div>DADOS</div>
+
+    <script>
+        console.log(this); // é window
+
+        //deste modo o this é dinamico, mostra cada local que for clicado - h1, p e div
+        /* let exibeConteudo = function() {
+            console.log(this);
+            alert(this.textContent);
+        };
+        */
+        //definindo com arrow function o this não se altera, será sempre window, que é o local de sua criação
+        let exibeConteudo = () => {
+            console.log(this);
+            alert(this.textContent);
+        };
+
+        $ = document.querySelector.bind(document); // faz um buffer do dom para que não seja mapeado toda vez que um item seja requerido
+
+        $('h1').addEventListener('click', exibeConteudo);
+
+        $('p').addEventListener('click', exibeConteudo);
+
+        $('div').addEventListener('click', exibeConteudo);
+
+    </script>
+</body>
+</html>

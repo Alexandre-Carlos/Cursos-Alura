@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)https://blog.caelum.com.br/seu-codigo-css-pode-ser-mais-limpo-flexivel-e-reaproveitavel/ -->
+<html lang="pt-BR" prefix="og: http://ogp.me/ns#" style="" class=" js csstransforms3d csstransitions" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum: desenvolvimento, web, mobile, UX e ScrumBlog da Caelum: desenvolvimento, web, mobile, UX e Scrum</title>
+
+<link rel="pingback" href="https://blog.caelum.com.br/xmlrpc.php">
+
+<!-- This site is optimized with the Yoast SEO plugin v10.0.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://blog.caelum.com.br/seu-codigo-css-pode-ser-mais-limpo-flexivel-e-reaproveitavel/">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum">
+<meta property="og:description" content="Bons programadores aprendem boas práticas de código desde criancinhas. Encapsulamento, bons nomes de variáveis e métodos, orientação a objetos e outros conceitos clássicos estão na ponta da língua. Apesar disso, vejo muito programador bom fazendo …">
+<meta property="og:url" content="https://blog.caelum.com.br/seu-codigo-css-pode-ser-mais-limpo-flexivel-e-reaproveitavel/">
+<meta property="og:site_name" content="Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum">
+<meta property="article:tag" content="css">
+<meta property="article:tag" content="wd-43">
+<meta property="article:tag" content="web">
+<meta property="article:section" content="Front-end">
+<meta property="article:published_time" content="2013-01-16T11:40:56-02:00">
+<meta property="article:modified_time" content="2013-01-15T21:43:46-02:00">
+<meta property="og:updated_time" content="2013-01-15T21:43:46-02:00">
+<meta property="og:image" content="https://i1.wp.com/blog.caelum.com.br/wp-content/uploads/2013/01/4950445842_daabb0ae20_b_mini.jpg?fit=1024%2C552&amp;ssl=1">
+<meta property="og:image:secure_url" content="https://i1.wp.com/blog.caelum.com.br/wp-content/uploads/2013/01/4950445842_daabb0ae20_b_mini.jpg?fit=1024%2C552&amp;ssl=1">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="552">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="Bons programadores aprendem boas práticas de código desde criancinhas. Encapsulamento, bons nomes de variáveis e métodos, orientação a objetos e outros conceitos clássicos estão na ponta da língua. Apesar disso, vejo muito programador bom fazendo […]">
+<meta name="twitter:title" content="Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum">
+<meta name="twitter:image" content="https://i1.wp.com/blog.caelum.com.br/wp-content/uploads/2013/01/4950445842_daabb0ae20_b_mini.jpg?fit=1024%2C552&amp;ssl=1">
+<div class="fit-vids-style">­<style>               .fluid-width-video-wrapper {                 width: 100%;                              position: relative;                       padding: 0;                            }                                                                                   .fluid-width-video-wrapper iframe,        .fluid-width-video-wrapper object,        .fluid-width-video-wrapper embed {           position: absolute;                       top: 0;                                   left: 0;                                  width: 100%;                              height: 100%;                          }                                       </style></div><script type="text/javascript" async="" src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/analytics.js.download"></script><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","url":"https://blog.caelum.com.br/","sameAs":[],"@id":"https://blog.caelum.com.br/#organization","name":"Caelum","logo":""}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="dns-prefetch" href="https://s0.wp.com/">
+<link rel="dns-prefetch" href="https://secure.gravatar.com/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="Feed para Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum »" href="https://blog.caelum.com.br/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum »" href="https://blog.caelum.com.br/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum » Seu código CSS pode ser mais limpo, flexível e reaproveitável" href="https://blog.caelum.com.br/seu-codigo-css-pode-ser-mais-limpo-flexivel-e-reaproveitavel/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.caelum.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.1"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="theme-stylesheet-css" href="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="woo-layout-css" href="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/layout.css" type="text/css" media="all">
+<link rel="stylesheet" id="prism-theme-css" href="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/prism-css.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="social-logos-css" href="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/social-logos.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/jetpack.css" type="text/css" media="all">
+<script type="text/javascript" src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/jquery.js.download"></script>
+<script type="text/javascript" src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/jquery-migrate.min.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/related-posts.min.js.download"></script>
+<script type="text/javascript" src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/fitvids.min.js.download"></script>
+<script type="text/javascript" src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/modernizr.min.js.download"></script>
+<script type="text/javascript" src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/general.js.download"></script>
+<script type="text/javascript" src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/spin.min.js.download"></script><style type="text/css"></style>
+<script type="text/javascript" src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/jquery.spin.min.js.download"></script>
+<link rel="https://api.w.org/" href="https://blog.caelum.com.br/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blog.caelum.com.br/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blog.caelum.com.br/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.4.1">
+<link rel="shortlink" href="https://wp.me/p8tqQy-1pD">
+<link rel="alternate" type="application/json+oembed" href="https://blog.caelum.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.caelum.com.br%2Fseu-codigo-css-pode-ser-mais-limpo-flexivel-e-reaproveitavel%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://blog.caelum.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.caelum.com.br%2Fseu-codigo-css-pode-ser-mais-limpo-flexivel-e-reaproveitavel%2F&amp;format=xml">
+<link rel="stylesheet" type="text/css" href="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/all.css"><!--[if IE]><link rel="stylesheet" type="text/css" href="https://blog.caelum.com.br/wp-content/plugins/highlight-source-pro/ie.css" /><![endif]--><script type="text/javascript" data-cfasync="false">var _mmunch = {'front': false, 'page': false, 'post': false, 'category': false, 'author': false, 'search': false, 'attachment': false, 'tag': false};_mmunch['post'] = true; _mmunch['postData'] = {"ID":5433,"post_name":"seu-codigo-css-pode-ser-mais-limpo-flexivel-e-reaproveitavel","post_title":"Seu c\u00f3digo CSS pode ser mais limpo, flex\u00edvel e reaproveit\u00e1vel","post_type":"post","post_author":"3","post_status":"publish"}; _mmunch['postCategories'] = [{"term_id":810,"name":"Front-end","slug":"front-end","term_group":0,"term_taxonomy_id":887,"taxonomy":"category","description":"","parent":0,"count":78,"filter":"raw","cat_ID":810,"category_count":78,"category_description":"","cat_name":"Front-end","category_nicename":"front-end","category_parent":0}]; _mmunch['postTags'] = [{"term_id":389,"name":"css","slug":"css","term_group":0,"term_taxonomy_id":441,"taxonomy":"post_tag","description":"","parent":0,"count":13,"filter":"raw"},{"term_id":813,"name":"wd-43","slug":"wd-43","term_group":0,"term_taxonomy_id":890,"taxonomy":"post_tag","description":"","parent":0,"count":19,"filter":"raw"},{"term_id":28,"name":"web","slug":"web","term_group":0,"term_taxonomy_id":375,"taxonomy":"post_tag","description":"","parent":0,"count":13,"filter":"raw"}]; _mmunch['postAuthor'] = {"name":"S\u00e9rgio Lopes","ID":3};</script><script data-cfasync="false" src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/site.js.download" id="mailmunch-script" data-plugin="mc_mm" data-mailmunch-site-id="400098" async=""></script>
+<link rel="dns-prefetch" href="https://v0.wordpress.com/">
+<link rel="dns-prefetch" href="https://i0.wp.com/">
+<link rel="dns-prefetch" href="https://i1.wp.com/">
+<link rel="dns-prefetch" href="https://i2.wp.com/">
+<style type="text/css">img#wpstats{display:none}</style>
+<!-- Theme version -->
+<meta name="generator" content="On Topic 1.1.2">
+<meta name="generator" content="WooFramework 5.5.5">
+
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<!--  Mobile viewport scale | Disable user zooming as the layout is optimised -->
+<meta content="initial-scale=1.0; maximum-scale=1.0; user-scalable=no" name="viewport">
+<!--[if lt IE 9]>
+<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+		<link rel="amphtml" href="https://blog.caelum.com.br/seu-codigo-css-pode-ser-mais-limpo-flexivel-e-reaproveitavel/amp/"><style type="text/css" id="syntaxhighlighteranchor"></style>
+			<style type="text/css" id="wp-custom-css">
+				/*
+Você pode adicionar seu próprio CSS aqui.
+
+Clique no ícone de ajuda acima para saber mais.
+*/
+
+/* author Alex feat Mairo ajuste no blockquote */
+.post .entry blockquote {
+    border-left: 5px solid #ccc;
+    padding-left: 25px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+}
+
+.post .entry blockquote:before {
+	display: none;
+}
+
+.post .entry blockquote p {
+	margin: 0px
+}
+			</style>
+		
+<!-- Woo Custom Styling -->
+<style type="text/css">
+body { background: #ffffff !important; }
+.entry a, .home-tabber li a { color: #7D95A5 !important; }
+.entry a:hover, .home-tabber li a:hover { color: #5A7C92 !important; }
+a.button, a.comment-reply-link, #commentform #submit, #contact-page .submit { background: #7D95A5 !important; }
+a.button:hover, a.button.hover, a.button.active, a.comment-reply-link:hover, #commentform #submit:hover, #contact-page .submit:hover { background: #7D95A5 !important; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
+</style>
+
+<!-- Google Webfonts -->
+<link href="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/css" rel="stylesheet" type="text/css">
+
+<!-- Woo Custom Typography -->
+<style type="text/css">
+body { font:normal 1.6em/1.9em 'Merriweather', arial, sans-serif;color:#1c1c1c; }
+#navigation ul.nav > li > a { font:300 1.1em/1em 'Varela', arial, sans-serif;color:#FFFFFF; }
+.page header h1 { font:bold italic 3.5em/1em 'Open Sans', arial, sans-serif;color:#000000; }
+.post header h1, .post header h1 a:link, .post header h1 a:visited { font:bold 3em/1em 'PT Sans', arial, sans-serif;color:#25343F; }
+.post header h1 a:link, .post header h1 a:visited { font:bold 0.7em/1em 'PT Sans', arial, sans-serif;color:#000000; }
+.post-meta { font:300 0.9em/1em 'Merriweather', arial, sans-serif;color:#828282; }
+.entry, .entry p { font:300 1em/1.5em 'Merriweather', arial, sans-serif;color:#1c1c1c; } h1, h2, h3, h4, h5, h6 { font-family: Merriweather, arial, sans-serif; }
+</style>
+
+<!-- Alt Stylesheet -->
+<link href="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/default.css" rel="stylesheet" type="text/css">
+
+<!-- Custom Favicon -->
+<link rel="shortcut icon" href="https://blog.caelum.com.br/wp-content/uploads/2006/08/favicon.ico">
+<!-- Options Panel Custom CSS -->
+<style type="text/css">
+.entry a, .home-tabber li a { color:#068AE0 !important; }
+
+</style>
+
+
+<!-- Woo Shortcodes CSS -->
+<link href="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/shortcodes.css" rel="stylesheet" type="text/css">
+
+<!-- Custom Stylesheet -->
+<link href="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/custom.css" rel="stylesheet" type="text/css">
+
+
+	<style>
+	
+		
+		#header  {
+			
+							background-color: #081c27;
+						
+							background-image: url(https://blog.caelum.com.br/wp-content/uploads/2006/08/bg-02.jpg);
+						
+							background-position: top left;
+						
+			background-repeat: no-repeat;
+			background-size: cover;
+			
+		}
+	
+				
+			@media only screen and (min-width: 768px) {
+				
+				.page #post-entries a, .single-post #post-entries a, .single-product #post-entries a  {
+					background-color: #081c27;
+				}
+				
+			}
+			
+			
+	</style>
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-270161-5');
+</script>
+<link rel="stylesheet" type="text/css" href="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/styles.css"></head>
+<body class="post-template-default single single-post postid-5433 single-format-standard chrome alt-style-default layout-default" id="error-page">
+
+<div id="wrapper" class="loaded">
+	<div id="inner-wrapper">
+
+    
+	<header id="header">
+		
+	<a id="logo" href="https://blog.caelum.com.br/" title="Aprenda sobre tecnologia com a Caelum. Artigos de programação, web, mobile, ux e agile">
+						<img src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/caelum-logo.png" alt="Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum">
+			
+	</a>
+
+
+
+		<span class="nav-toggle"><a href="https://blog.caelum.com.br/seu-codigo-css-pode-ser-mais-limpo-flexivel-e-reaproveitavel/#navigation"><span>Navigation</span></a></span>
+		
+		<!--
+	    <hgroup>
+			<h1 class="site-title"><a href="https://blog.caelum.com.br/">Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum</a></h1>
+			<h2 class="site-description">Aprenda sobre tecnologia com a Caelum. Artigos de programação, web, mobile, ux e agile</h2>
+		</hgroup>
+		-->
+
+                
+        
+        <div class="search_main fix"><form role="search" class="searchform" method="get" id="searchform" action="https://blog.caelum.com.br/">
+				<div>
+					<label class="screen-reader-text" for="s">Pesquisar por:</label>
+					<input type="text" value="" name="s" class="field s" placeholder="Busca..." id="s">
+					<input type="submit" class="search-submit" id="searchsubmit" value="Pesquisar">
+				</div>
+			</form></div>
+		<nav id="navigation" class="col-full" role="navigation">
+
+			<section class="menus">
+
+			<a href="https://blog.caelum.com.br/" class="nav-home"><span>Home</span></a>
+			
+			<div class="menu-toggle"><h3>Categorias</h3><ul id="menu-categorias" class="nav main-nav"><li id="menu-item-8609" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8609"><a href="https://blog.caelum.com.br/category/programacao/">Programação</a></li>
+<li id="menu-item-4145" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-4145"><a href="https://blog.caelum.com.br/category/front-end/">Front-end</a></li>
+<li id="menu-item-8610" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8610"><a href="https://blog.caelum.com.br/category/mobile/">Mobile</a></li>
+<li id="menu-item-7474" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7474"><a href="https://blog.caelum.com.br/category/design-ux/">Design &amp; UX</a></li>
+<li id="menu-item-4143" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4143"><a href="https://blog.caelum.com.br/category/agile/">Agile</a></li>
+<li id="menu-item-4142" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4142"><a href="https://blog.caelum.com.br/category/arquitetura/">Arquitetura</a></li>
+<li id="menu-item-4141" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4141"><a href="https://blog.caelum.com.br/category/inovacao/">Inovação</a></li>
+</ul></div><div class="menu-toggle"><h3>Conheça também</h3><ul id="menu-sec-menu" class="nav main-nav"><li id="menu-item-6142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6142"><a href="https://www.caelum.com.br/">Cursos Caelum</a></li>
+<li id="menu-item-6143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6143"><a href="https://www.alura.com.br/">Cursos online Alura</a></li>
+<li id="menu-item-6144" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6144"><a href="https://www.casadocodigo.com.br/">Editora Casa do Código</a></li>
+</ul></div>	        <ul class="nav rss">
+	            
+				
+	        </ul>
+
+	    	</section><!--/.menus-->
+
+	    	 <div id="connect">
+<div class="social">
+<a href="https://blog.caelum.com.br/feed/" title="Subscribe to our RSS feed" class="subscribe"><span>Subscribe to our RSS feed</span></a>
+<a href="https://twitter.com/caelum" title="Follow Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum on Twitter" class="twitter"><span>Follow Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum on Twitter</span></a>
+<a href="https://www.facebook.com/caelumbr" title="Like Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum on Facebook" class="facebook"><span>Like Blog da Caelum: desenvolvimento, web, mobile, UX e Scrum on Facebook</span></a>
+</div>
+</div>
+
+	        <!-- <a href="#top" class="nav-close"><span>Return to Content</span></a> -->
+
+		</nav><!-- /#navigation -->
+
+				
+	</header><!-- /#header -->
+
+	
+    <div id="content" class="col-full">
+
+    	
+		<section id="main">
+        			<article class="post-5433 post type-post status-publish format-standard has-post-thumbnail hentry category-front-end tag-css tag-wd-43 tag-web">
+
+				
+                <header style="background-image: url(https://i1.wp.com/blog.caelum.com.br/wp-content/uploads/2013/01/4950445842_daabb0ae20_b_mini.jpg?fit=1024%2C552&amp;ssl=1); background-size: cover; background-position: center center;">
+                
+                	<section class="header-content">
+
+	                	<h1>Seu código CSS pode ser mais limpo, flexível e reaproveitável</h1>
+                		<aside class="post-meta">
+	<span class="post-date">Postado dia 16/01/2013</span>
+	<span class="post-author">por Sérgio Lopes</span>
+	<span class="post-category">em <a href="https://blog.caelum.com.br/category/front-end/" rel="category tag">Front-end</a></span>
+	<span class="post-comments"><a href="https://blog.caelum.com.br/seu-codigo-css-pode-ser-mais-limpo-flexivel-e-reaproveitavel/#comments">56</a></span>
+	</aside>
+
+                	</section>
+                	
+                	<!--
+                	<nav id="post-entries" class="fix">
+	        		    <div class="nav-prev fl"><a href="https://blog.caelum.com.br/retrospectiva-caelum-2012/" rel="prev">Retrospectiva Caelum 2012</a></div>
+	        		    <div class="nav-next fr"><a href="https://blog.caelum.com.br/como-medir-a-coesao-lcom/" rel="next">Como medir a coesão do seu código? A métrica LCOM</a></div>
+	        		</nav>
+	        	-->
+                	
+                	                	
+<!--                 	<a href="#" title="#"><img src="https://i1.wp.com/blog.caelum.com.br/wp-content/uploads/2013/01/4950445842_daabb0ae20_b_mini.jpg?fit=1024%2C552&#038;ssl=1" alt="" /></a> -->
+
+                </header>
+
+                <section class="entry fix">
+					
+                	<div class="mailmunch-forms-before-post" style="display: none !important;"></div><p>Bons programadores aprendem boas práticas de código desde criancinhas. Encapsulamento, bons nomes de variáveis e métodos, orientação a objetos e outros conceitos clássicos estão na ponta da língua. Apesar disso, vejo muito programador bom fazendo código front-end ruim. Minha opinião? <strong>Fazer um bom código front-end é mais difícil do que parece</strong>.</p>
+<p>Escrever um <em>bom JavaScript</em> costuma ser mais fácil. Por ser uma linguagem de programação parecida com as outras, conseguimos mapear bem os conceitos de encapsulamento e orientação a objetos (apesar da dificuldade dos prototypes). </p>
+<p>Mas, com HTML e CSS, a coisa começa a ficar mais complicada. Como ter um CSS mais reaproveitável? Algumas boas práticas para devs front-end:</p>
+<p><img data-attachment-id="5437" data-permalink="https://blog.caelum.com.br/seu-codigo-css-pode-ser-mais-limpo-flexivel-e-reaproveitavel/4950445842_daabb0ae20_b_mini/" data-orig-file="https://i1.wp.com/blog.caelum.com.br/wp-content/uploads/2013/01/4950445842_daabb0ae20_b_mini.jpg?fit=1024%2C552&amp;ssl=1" data-orig-size="1024,552" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Heróis" data-image-description="" data-medium-file="https://i1.wp.com/blog.caelum.com.br/wp-content/uploads/2013/01/4950445842_daabb0ae20_b_mini.jpg?fit=300%2C161&amp;ssl=1" data-large-file="https://i1.wp.com/blog.caelum.com.br/wp-content/uploads/2013/01/4950445842_daabb0ae20_b_mini.jpg?fit=1024%2C552&amp;ssl=1" src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/4950445842_daabb0ae20_b_mini.jpg" alt="Heróis" style="max-width:100%" class="aligncenter size-full wp-image-5437" srcset="https://i1.wp.com/blog.caelum.com.br/wp-content/uploads/2013/01/4950445842_daabb0ae20_b_mini.jpg?w=1024&amp;ssl=1 1024w, https://i1.wp.com/blog.caelum.com.br/wp-content/uploads/2013/01/4950445842_daabb0ae20_b_mini.jpg?resize=300%2C161&amp;ssl=1 300w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1"></p>
+<h2>Não sobrescreva suas próprias regras CSS.</h2>
+<p>Você já passou por isso: coloca um <code>float:left</code> num seletor e depois precisa limpá-lo com <code>float:none</code> num caso particular. Ou ainda reescrever um <code>width:auto</code> e coisas do tipo. <strong>Péssima prática</strong>.</p>
+<p>Além de te fazer escrever a mesma propriedade duas vezes, não faz uso dos padrões do navegador (no caso, que todo <code>float</code> já é <code>none</code>). Evite isso invertendo seus seletores: deixe só os elementos que realmente precisa flutuar com <code>float:left</code> e os demais herdam o valor padrão <code>none</code> e pronto.</p>
+<p>Um cenário que vejo isso acontecer muito é ao adaptar sites pra telas menores com media queries. Na tela grande, você flutua elementos pra todo lado mas num celular pequeno decide empilhar os elementos e tirar o <code>float</code>:</p>
+<pre class="brush: css; title: ; notranslate" title="">/* desktop */
+.botao-magico { float: right; }
+
+/* mobile */
+@media (max-width: 600px) {
+  .botao-magico { float: none; }
+}
+</pre>
+<p>Nesse caso de media queries, aliás, isso só aconteceu porque usamos a estratégia de escrever os estilos do desktop primeiro e depois sobrescrever com os estilos pra dispositivos menores. Chamam essa estratégia de <strong>desktop-first</strong> e esse exemplo é um ótimo argumento pra você não fazer isso e preferir <strong>mobile-first</strong> no seu CSS:</p>
+<pre class="brush: css; title: ; notranslate" title="">/* mobile */
+/* nada aqui! o padrão é float:none */
+
+/* desktop */
+@media (min-width: 600px) {
+  .botao-magico { float: right; }
+}
+</pre>
+<h2>Abuse de classes pra reaproveitar código CSS. Evite IDs.</h2>
+<p>IDs são muito inflexíveis: só podem aparecer uma vez na página e um elemento não pode ter mais de um ID (o elemento é um <em>singleton</em>). Isso faz do ID o vilão do reaproveitamento de código.</p>
+<p>Você deveria <strong>usar classes sempre no seu CSS</strong>. Isso te permite aplicar o mesmo estilo em mais de um elemento diferente sem replicar regras. Seu código fica mais curto e mais limpo.</p>
+<p>Classes CSS nos permitem o tipo de reaproveitamento que a herança nos traz em linguagens orientadas a objetos. Crie uma hierarquia de classes pra reaproveitar estilos comuns mesmo em elementos diferentes.</p>
+<p>Por exemplo: você tem dois elementos na página (<code>.menu</code> e <code>.noticias</code>) que têm funções e visuais diferentes. Mas os dois seguem a base visual do site que é ter fundo cinza, com borda redonda e uma sombra. Ao invés de copiar as propriedades, crie uma nova classe base pra esses elementos:</p>
+<pre class="brush: xml; title: ; notranslate" title="">  &lt;div class="box menu"&gt;...&lt;/div&gt;
+  &lt;div class="box noticias"&gt;&lt;/div&gt;
+</pre>
+<pre class="brush: css; title: ; notranslate" title="">   .box {
+      background: #ccc;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px black;
+   }
+</pre>
+<p>Prefira criar essa classe nova <code>.box</code> que escrever o CSS usando as classes dos outros dois elementos <code>.menu, .noticias { ... }</code>. O dia que um terceiro box surgir, é só aplicar a classe, sem mexer no CSS.</p>
+<h2>Não brigue com a especificidade do CSS.</h2>
+<p>Falando em classes e sobrescrever regras, a coisa fica pior ainda com as regras de especificidade do CSS. Seletor de ID tem precedência ao de classe, que tem precedência ao de tagname.</p>
+<p>Outro motivo pra você evitar IDs no CSS é que você não pode sobrescrever suas propriedades com suas classes genéricas reaproveitáveis. Precisaria de outro ID pra sobrescrever um seletor de ID.</p>
+<p>Não brigue com a especificidade. Mantenha a especificidade dos seus seletores no mesmo nível usando classes sempre pra estilizar. São mais fáceis de compor. E jamais use <code>!important</code> pra forçar um estilo.</p>
+<h2>Números mágicos são um mal sinal no CSS.</h2>
+<p>Toda vez que você escreve um <code>margin-top:37px</code> ou um <code>width:381px</code> um bebê foca morre. Evite números mágicos no seu CSS que são <strong>calculados arbitrariamente</strong> e <strong>certamente quebrarão</strong> se o texto for um pouquinho maior ou se o seu menu tiver uma entrada a mais.</p><div class="mailmunch-forms-in-post-middle" style="display: none !important;"></div>
+<p>Pior ainda aquele número mágico pra alinhar algo (tipo um <code>top:-1px</code>) que certamente está levando em conta a renderização num certo browser e vai quebrar em outro navegador ou se o ícone mudar. Isso faz seu CSS ser pouco reaproveitável e exige manutenção constante. Quer alinhar um ícone com texto? Aprenda a usar o <code>vertical-align:middle</code> (mesmo ele não funcionando do jeito que você pensa que funciona).</p>
+<h2>Use unidades flexíveis.</h2>
+<p>Números mágicos podem ser evitados em muitos casos usando unidades relativas como porcentagens. Se você tem uma página de <code>940px</code> de largura e precisa dividir em 5 colunas, não escreva <code>width:188px</code> porque você nunca vai lembrar da onde saiu esse valor. Prefira <code>width:20%</code> que mostra de maneira mais óbvia que é 1/5 do página.</p>
+<p>E, claro, se puder, faça todas as suas unidades de layout com porcentagens. Isso vai fazer seu design ser flexível e não depender do tamanho do navegador. <strong>A Web é uma mídia elástica e confinar sua página a pixels estáticos é transformar a Web em uma mídia mais limitadas como a impressa</strong>.</p>
+<p>Para elementos tipográficos ou afetados pela tipografia, use <code>em</code> como medida flexível.</p>
+<h2>Evite acoplar o estilo CSS a tags específicas do HTML.</h2>
+<p>Escrever o nome tag no meio do CSS faz com que seu estilo fique acoplado à estrutura do HTML. Se o HTML muda, seu estilo quebra. Podemos evitar isso criando mais classes e diminuindo o acoplamento entre HTML e CSS.</p>
+<p>Se você tem um menu como uma lista cheia de itens, não use <code>.menu li</code> no CSS. Prefira criar uma classe específica <code>.menu-item</code> e aplicá-la no HTML. Você vai poder mudar seu HTML depois sem problemas.</p>
+<p>Até quando você usa elementos mais padronizados, como <code>&lt;header&gt;</code> ou <code>&lt;h1&gt;</code>, a boa prática é usar classes pra estilizar:</p>
+<pre class="brush: xml; title: ; notranslate" title="">  &lt;header class="topo"&gt;
+    &lt;h1 class="chamada-principal"&gt;Compre já!&lt;/h1&gt;
+  &lt;/header&gt;
+</pre>
+<p>Tudo isso te deixa muito mais livre pra mudar o HTML por razões de semântica e conteúdo, sem afetar o estilo CSS.</p>
+<h2>Dê bons nomes pra suas classes</h2>
+<p>E já que boa parte das práticas envolve criar novas classes, é bom saber nomeá-las direito. A regra óbvia, quer você já segue, é criar <strong>nomes legíveis e fáceis de entender</strong>. Use <code>.painel-principal</code> ao invés de <code>.pnlPri</code>.</p>
+<p>Mas não é só isso. Os nomes das classes são a ponte entre seu HTML e seu CSS. Eles serão escritos no meio do conteúdo HTML da página e, portanto, <strong>devem ter semântica de conteúdo e não de visual</strong>.</p>
+<p>Isso quer dizer que você não deveria criar classes chamadas <code>.box-lateral</code> ou <code>.titulo-azul</code> ou <code>.painel-direita</code>. Se o seu box não for lateral ou o título mudar de cor ou o painel mudar de lado, sua classe perde significado.</p>
+<p>Evite isso criando classes com nomes de conteúdo, como <code>.painel</code> ou <code>.chamada-principal</code>. E, claro, se, eventualmente, você tiver um <code>.titulo-azul</code> no seu código, não deixe a classe com esse nome o dia que a cor mudar pra vermelho; renomeie a classe!</p>
+<h2>Documente bem as exceções.</h2>
+<p>Toda regra tem exceções. Às vezes, você vai colocar um ID ou tagname no seu CSS. Ou vai precisar de um <code>!important</code> num raro lugar. Ou aquele número mágico que você não vai lembrar depois como calcula.</p>
+<p>Isso deve ser exceção, não abuse. E, sempre que fizer isso, documente direito no CSS o porquê daquela escolha.</p>
+<pre class="brush: css; title: ; notranslate" title="">/* estrutura esperada para o menu:
+     &lt;ul class="menu"&gt;
+       &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;
+       &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;
+     &lt;/ul&gt;
+ */
+.menu { ... }
+.menu li { ... }
+.menu a { ... }
+
+/* usando ID porque o widget do facebook obriga */
+#facebook-like iframe {
+  width: 100% !important; /* important pra sobrescrever css inline do widget */
+}
+</pre>
+<h2>Mais</h2>
+<p>Há muitas outras boas práticas, claro. Você deve identar bem seu código, ordenar as propriedades de maneira lógica e se preocupar com <a href="https://blog.caelum.com.br/por-uma-web-mais-rapida-26-tecnicas-de-otimizacao-de-sites/">performance</a>. Você pode usar <a href="https://blog.caelum.com.br/css-facil-flexivel-e-dinamico-com-less/">pré-processadores</a>, frameworks e técnicas avançadas (como OOCSS). No <a href="http://www.caelum.com.br/curso/wd-43-desenvolvimento-web-html-css-javascript/">curso de front-end da Caelum</a>, falamos de várias dessas técnicas e com muitos exemplos práticos.</p>
+<p>O importante é ter um cuidado especial pelo seu CSS para deixá-lo sempre o mais fácil, reaproveitável e flexível o possível. Isso vai ajudar o seu dia a dia e dos outros devs da sua equipe.</p>
+<div class="mailmunch-forms-after-post" style="display: none !important;"></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Compartilhe isso:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-5433" class="share-twitter sd-button share-icon no-text" href="https://blog.caelum.com.br/seu-codigo-css-pode-ser-mais-limpo-flexivel-e-reaproveitavel/?share=twitter" target="_blank" title="Clique para compartilhar no Twitter"><span></span><span class="sharing-screen-reader-text">Clique para compartilhar no Twitter(abre em nova janela)</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-5433" class="share-facebook sd-button share-icon no-text" href="https://blog.caelum.com.br/seu-codigo-css-pode-ser-mais-limpo-flexivel-e-reaproveitavel/?share=facebook" target="_blank" title="Clique para compartilhar no Facebook"><span></span><span class="sharing-screen-reader-text">Clique para compartilhar no Facebook(abre em nova janela)</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
+	<h3 class="jp-relatedposts-headline"><em>Relacionado</em></h3>
+<div class="jp-relatedposts-items jp-relatedposts-items-minimal jp-relatedposts-grid "><p class="jp-relatedposts-post jp-relatedposts-post0" data-post-id="5928" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://blog.caelum.com.br/principios-do-codigo-solido-na-orientacao-a-objetos/" title="Princípios do Código Sólido na orientação a objetos
+
+Quer ver eu te fazer uma pergunta que te fará pensar o resto do dia? Como olhar para um código e dizer que ele é de qualidade? Essa é sem dúvida uma pergunta que todos nós tentamos responder todos os dias. Como bem sabemos, podemos olhar trechos de código por…" rel="nofollow" data-origin="5433" data-position="0">Princípios do Código Sólido na orientação a objetos</a></span><span class="jp-relatedposts-post-date">21/01/2014</span><span class="jp-relatedposts-post-context">In “Arquitetura”</span></p><p class="jp-relatedposts-post jp-relatedposts-post1" data-post-id="5993" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://blog.caelum.com.br/organize-seu-codigo-javascript-de-maneira-facil/" title="Organize seu código Javascript de maneira fácil!
+
+Ao longo desses anos nesta indústria vital já participei de inúmeros projetos... e foram tantos que os dedos das mãos seriam insuficientes para contá-los. Alguns deles me orgulho, outros nem tanto (afinal como você, eu também já produzi muita coisa de qualidade duvidosa). Ainda assim acredito na máxima que as…" rel="nofollow" data-origin="5433" data-position="1">Organize seu código Javascript de maneira fácil!</a></span><span class="jp-relatedposts-post-date">10/03/2014</span><span class="jp-relatedposts-post-context">In “Front-end”</span></p><p class="jp-relatedposts-post jp-relatedposts-post2" data-post-id="7087" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://blog.caelum.com.br/comecando-a-organizar-seu-css/" title="Começando a organizar seu CSS
+
+Você já deve ter aberto um CSS com 2.000 linhas com o nome de styles.css, dentro de uma pasta chamada css. Esse é um bom momento em focar um tempo para estudar um dos modelo de arquitetura de CSS: DRY CSS SMACSS BEM OOCSS Atomic Design Vale a pena ler…" rel="nofollow" data-origin="5433" data-position="2">Começando a organizar seu CSS</a></span><span class="jp-relatedposts-post-date">09/09/2015</span><span class="jp-relatedposts-post-context">In “Front-end”</span></p></div></div>					
+
+
+<a class="share-social" href="https://www.alura.com.br/" style="padding: 16px">
+<img src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/alura-logo.1465499610.svg" alt="Alura" style="margin-right: 16px">
+<strong style="">Estude online na Alura</strong>
+<p style="margin: 12px 0 0 0">Programação, Mobile, Front-end, Design &amp; UX, Infraestrutura e Business</p>
+</a>
+
+					<div class="tags">Tags: <a href="https://blog.caelum.com.br/tag/css/" rel="tag">css</a>, <a href="https://blog.caelum.com.br/tag/wd-43/" rel="tag">wd-43</a>, <a href="https://blog.caelum.com.br/tag/web/" rel="tag">web</a></div>
+				</section>
+
+            </article><!-- .post -->
+
+						<aside id="post-author" class="fix">
+				<div class="profile-image">
+											<img src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/sergio-lopes-90.jpg">
+									</div>
+				<div class="profile-content">
+					<h3 class="title">
+						Sérgio Lopes						
+													<small>(<a rel="author" href="https://plus.google.com/116277751891701467725?rel=author">Google+</a>)</small>
+											</h3>
+
+											<div class="profile-link">
+							<a href="http://www.caelum.com.br/instrutores/sergio-lopes">
+								Mais sobre o autor
+							</a><br>
+							<a href="https://blog.caelum.com.br/author/slopes">
+								Outros posts do autor
+							</a>
+						</div><!-- #profile-link	-->
+									</div><!-- .post-entries -->
+			</aside><!-- .post-author-box -->
+			
+			
+				
+            
+
+<!-- You can start editing here. -->
+
+
+<div id="comments">
+
+			<h3>56 Comentários</h3>
+
+		<ol class="commentlist">
+
+			
+		<li class="comment odd alt thread-odd thread-alt depth-1">
+
+	    	<a name="comment-352736"></a>
+
+	      	<div id="li-comment-352736" class="comment-container">
+
+					                <div class="comment-avatar"><img alt="" src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/f68b999cd61a874345deca41bcc3e8da.jpg" srcset="https://secure.gravatar.com/avatar/f68b999cd61a874345deca41bcc3e8da?s=100&amp;r=g 2x" class="photo avatar avatar-50 photo" height="50" width="50"></div>
+	            
+		      	<div class="comment-head">
+
+	                <span class="name">
+
+
+	
+	<meta name="viewport" content="width=device-width">
+		<meta name="robots" content="noindex,follow">
+	<title>Erro › WordPress</title>
+	<style type="text/css">
+		html {
+			background: #f1f1f1;
+		}
+		body {
+			background: #fff;
+			color: #444;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+			margin: 2em auto;
+			padding: 1em 2em;
+			max-width: 700px;
+			-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+		}
+		h1 {
+			border-bottom: 1px solid #dadada;
+			clear: both;
+			color: #666;
+			font-size: 24px;
+			margin: 30px 0 0 0;
+			padding: 0;
+			padding-bottom: 7px;
+		}
+		#error-page {
+			margin-top: 50px;
+		}
+		#error-page p,
+		#error-page .wp-die-message {
+			font-size: 14px;
+			line-height: 1.5;
+			margin: 25px 0 20px;
+		}
+		#error-page code {
+			font-family: Consolas, Monaco, monospace;
+		}
+		ul li {
+			margin-bottom: 10px;
+			font-size: 14px ;
+		}
+		a {
+			color: #0073aa;
+		}
+		a:hover,
+		a:active {
+			color: #00a0d2;
+		}
+		a:focus {
+			color: #124964;
+			-webkit-box-shadow:
+				0 0 0 1px #5b9dd9,
+				0 0 2px 1px rgba(30, 140, 190, 0.8);
+			box-shadow:
+				0 0 0 1px #5b9dd9,
+				0 0 2px 1px rgba(30, 140, 190, 0.8);
+			outline: none;
+		}
+		.button {
+			background: #f7f7f7;
+			border: 1px solid #ccc;
+			color: #555;
+			display: inline-block;
+			text-decoration: none;
+			font-size: 13px;
+			line-height: 2;
+			height: 28px;
+			margin: 0;
+			padding: 0 10px 1px;
+			cursor: pointer;
+			-webkit-border-radius: 3px;
+			-webkit-appearance: none;
+			border-radius: 3px;
+			white-space: nowrap;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing:    border-box;
+			box-sizing:         border-box;
+
+			-webkit-box-shadow: 0 1px 0 #ccc;
+			box-shadow: 0 1px 0 #ccc;
+			vertical-align: top;
+		}
+
+		.button.button-large {
+			height: 30px;
+			line-height: 2.15384615;
+			padding: 0 12px 2px;
+		}
+
+		.button:hover,
+		.button:focus {
+			background: #fafafa;
+			border-color: #999;
+			color: #23282d;
+		}
+
+		.button:focus {
+			border-color: #5b9dd9;
+			-webkit-box-shadow: 0 0 3px rgba(0, 115, 170, 0.8);
+			box-shadow: 0 0 3px rgba(0, 115, 170, 0.8);
+			outline: none;
+		}
+
+		.button:active {
+			background: #eee;
+			border-color: #999;
+			-webkit-box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, 0.5);
+			box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, 0.5);
+		}
+
+			</style>
+
+
+	<div class="wp-die-message"><p>Há um erro crítico no seu site.</p><p><a href="https://wordpress.org/support/article/debugging-in-wordpress/">Aprenda mais sobre depuração no WordPress.</a></p></div>
+
+	<script type="text/javascript" src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/e-202019.js.download" async="async" defer="defer"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.1.2',blog:'125225402',post:'5433',tz:'-3',srv:'blog.caelum.com.br'} ]);
+	_stq.push([ 'clickTrackerInit', '125225402', '5433' ]);
+</script>
+</span></div></div></li></ol></div></section></div></div></div><img src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/g.gif" alt=":)" width="6" height="5" id="wpstats"><iframe src="./Seu código CSS pode ser mais limpo, flexível e reaproveitável - Blog da Caelum_ desenvolvimento, web, mobile, UX e ScrumBlog da Caelum_ desenvolvimento, web, mobile, UX e Scrum_files/tag.html" width="1" height="1" style="visibility: hidden; display: none;"></iframe></body></html>

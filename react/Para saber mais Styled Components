@@ -1,0 +1,91 @@
+09
+Para saber mais: Styled Components
+PRÓXIMA ATIVIDADE
+
+Styled Components
+Quando começamos a desenvolver aplicações utilizando React, começamos também a perceber uma gama de módulos e ferramentas criadas pela comunidade para facilitar nossa vida.
+
+Um desses módulos ataca exatamente a forma com que estilizamos nossos componentes no React
+
+O que é o Styled Component
+É um framework de estilização via JavaScript (CSS In JS) que utiliza template string (template literals) e CSS provendo uma plataforma onde é possível estilizar seus componentes usando CSS. Ou seja, é possível estilizar seus componentes usando CSS dentro de seu código!
+
+Instalando o módulo Styled Components
+Para fazer a instalação, abra o terminal no diretório do seu projeto e execute o comando:
+
+npm install styled-components
+Note: É recomendado que você instale um plugin para styled-components no seu editor de texto.
+
+Criando seu primeiro componente estilizado
+1 - Antes de tudo, é necessário importar o módulo no seu arquivo.
+
+import styled from 'styled-components';
+2 - Feito isso, crie um componente Button
+
+const Button = styled.button``;
+É dentro desses (`) acentos graves que entrará o código CSS
+
+3 - Estilize seu button da forma que desejar.
+
+OBS: Podemos criar qualquer componente utilizando styled.TAG
+
+4 - Continue a estilização do componente.
+
+const Button = styled.button`
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid palevioletred;
+  color: palevioletred;
+  margin: 0.5em 1em;
+  padding: 0.25em 1em;
+
+`;
+5 - Podemos também adaptar o nosso componente criando funções dentro das template literals, veja:
+
+const Button = styled.button`
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid palevioletred;
+  color: palevioletred;
+  margin: 0.5em 1em;
+  padding: 0.25em 1em;
+
+  ${props => props.primary && css`
+    background: palevioletred;
+    color: white;
+  `}
+`;
+Acima estamos dizendo que queremos mudar a cor de background caso a exista a propriedade primary
+
+render(
+  <div>
+    <Button>Normal Button</Button>
+    <Button primary>Primary Button</Button>
+  </div>
+);
+6 - Podemos criar mais um componente para centralizar os botões, veja o código completo abaixo:
+
+const Button = styled.button`
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid palevioletred;
+  color: palevioletred;
+  margin: 0.5em 1em;
+  padding: 0.25em 1em;
+
+  ${props => props.primary && css`
+    background: palevioletred;
+    color: white;
+  `}
+`;
+
+const Container = styled.div`
+  text-align: center;
+`
+//MÉTODO RENDER
+
+render(
+  <Container>
+    <Button>Normal Button</Button>
+    <Button primary>Primary Button</Button>
+  </Container>

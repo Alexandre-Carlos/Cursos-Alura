@@ -1,0 +1,222 @@
+buscar no google 
+mongodb or
+mongodb operador in
+deste modo ele tras a referencia dos comandos
+
+__________________________________________________________________________________
+
+
+cnd
+mongod - inicializar o servidor 
+
+mongo - abrir o terminal
+
+db.createCollection("alunos")
+
+db.alunos.insert(
+{
+		"nome" : "Felipe",
+		"data_nascimento" : new Date(1994,02,26),
+		"curso" : 
+		{
+			"nome" : "Sistema de informação"
+		},
+		"notas" : [10.0, 9.0, 4.5],
+		"habilidades" : 
+		[
+			{
+			  "nome" : "inglês",
+			  "nível" : "avançado"
+			},
+			{
+				"nome" : "taekwondo",
+				"nível" : "básico"
+			}
+		]
+}
+)
+
+db.alunos.remove({ "_id" : ObjectId("5e57e204f1bcf570b94ec37c")})
+
+{
+	"nome" : "Julio",
+	"data_nascimento" : new Date(1972, 08, 30),
+	"curso" :{
+				"nome" : "Medicina"
+			},
+	"habilidades" : [
+						{	"nome" : "inglês",
+							"nível" : "avançado"
+						}
+					]
+}
+
+{
+	"nome" : "Alberto",
+	"data_nascimento" : new Date(1972, 09, 30),
+	"curso" :{
+				"nome" : "Engenharia Química"
+			},
+	"habilidades" : [
+						{	"nome" : "inglês",
+							"nível" : "intermediário"
+						}
+					]
+}
+
+db.alunos.insert({
+    "nome": "Paulo",
+    "data_nascimento": new Date(1979, 12, 31),
+    "notas": [10, 9, 7],
+    "curso": {
+        "nome": "Ciências da computação"
+    },
+    "habilidades": [
+        {
+            "nome": "Inglês",
+            "nível": "Avançado"
+        },
+        {
+            "nome": "Francês",
+            "nível": "Avançado"
+        }
+    ] 
+})
+
+
+{
+	"nome" : "Daniela",
+	"data_nascimento" : new Date(1995, 09, 30),
+	"curso" :{
+				"nome" : "Moda"
+			},
+	"habilidades" : [
+						{	"nome" : "alemão",
+							"nível" : "básico"
+						}
+					]
+}
+
+db.alunos.find(
+{
+	nome : "Felipe"
+}
+).pretty()
+
+db.alunos.insert(
+{
+       
+        "nome" : "Felipe",
+        "curso" : {
+                "nome" : "Matemática"
+        }
+}
+)
+
+db.alunos.remove({"_id" : ObjectId("5e580f0df1bcf570b94ec382")})
+
+db.alunos.find({"habilidades.nome" : "inglês"}).pretty()
+
+db.alunos.find({"nome" : "Felipe", "habilidades.nome" : "inglês"}).pretty()
+
+db.alunos.find({
+	$or : [
+		{"curso.nome" : "Sistema de informação"},
+		{"curso.nome" : "Engenharia Química"}
+		]
+}).pretty()
+
+db.alunos.find({
+	$or : [
+		{"curso.nome" : "Sistema de informação"},
+		{"curso.nome" : "Engenharia Química"},
+		{"curso.nome" : "Moda"}
+		],
+	"nome" : "Daniela"	
+}).pretty()
+
+
+db.alunos.find({
+	"curso.nome" : {
+					$in : ["Sistema de informação", "Engenharia Química", "Moda"]
+					}
+})
+
+
+db.alunos.find({
+	"curso.nome" : {
+					$in : ["Sistema de informação", "Engenharia Química", "Moda"]
+					},
+	"nome" : "Daniela"
+})
+
+
+db.alunos.insert(
+{
+	"nome" : "Fernando",
+	"data_nascimento" : new Date(1994, 03, 26),
+	notas : [ 10, 4.5, 7],
+	"curso" :{
+				"nome" : "Sistema de informação"
+			}
+	
+})
+
+db.alunos.find(
+{"curso.nome" : "Sistema de informação"}
+)
+
+db.alunos.update(
+{"curso.nome" : "Sistema de informação"},
+{
+	$set : { "curso.nome" : "Sistemas de informação"} }
+)
+
+db.alunos.update(
+{"curso.nome" : "Sistema de informação"},
+{
+	$set : { "curso.nome" : "Sistemas De Informação"} },
+	{
+		multi : true
+	}
+)
+
+________________________________________________________________________________________________
+
+
+comparação com o sql
+
+CREATE TABLE alunos (id INTEGER AUTO_INCREMENT PRIMARY KEY, nome VARCHAR (255), data_nascimento DATE);
+INSERT INTO alunos  VALUES (1, "FELIPE", "19940226")
+
+CREATE TABLE cursos (id INTEGER PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(255));
+CREATE TABLE alunos (id INTEGER PRIMARY KEY AUTO_INCREMENT nome VARCHAR (255), curso_id INTEGER, data_nascimento DATE)
+CREATE TABLE notas (id INTEGER PRIMARY KEY AUTO_INCREMENT, nota DEIMAL (3,2), aluno_id INTEGER)
+CREATE TABLE notas (id INTEGER PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(255), nivel VARCHAR(255), nivel VARCHAR(255), aluno_id INTEGER});
+
+SELECT * FROM alunos WHERE nome = "Felipe"
+
+
+------> select a partir da tabela habilidades, pega o id do aluno e faz um join com a tabela do aluno para trazer todos os alunos que tem a habilidade inglês
+SELECT a.*
+		FROM habilidades as h
+		JOIN alunos as a ON a.id = h.aluno_id
+		WHERE h.nome="inglês";
+		
+SELECT a.*
+		FROM habilidades as h
+		JOIN alunos as a ON a.id = h.aluno_id
+		WHERE h.nome="inglês"
+		AND a.nome = "Felipe";
+
+
+SELECT * FROM cursos WHERE (nome = "Sistema de informação" OR nome = "Engenharia Química" OR nome = "Moda");
+ou desta forma
+SELECT * FROM cursos WHERE nome IN ("Sistema de informação", "Engenharia Química", "Moda");
+
+UPDATE cursos SET nome = "Sistemas de informação" WHERE nome = "Sistema de informação";
+
+
+
+		
+		

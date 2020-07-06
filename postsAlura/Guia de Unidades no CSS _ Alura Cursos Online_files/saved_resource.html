@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://jsfiddle.net/r0od5zbe/2/embedded/js,html,css,result/dark/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+    <meta http-equiv="edit-Type" edit="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JSFiddle</title>
+
+      <meta name="robots" content="index, follow">
+      <meta name="googlebot" content="index, follow">
+
+      <script src="./highlight.pack.js.download"></script>
+      <script src="./embed.js.download"></script>
+      <link rel="stylesheet" media="screen" href="./embed-dark.css">
+
+      <script type="text/javascript">
+        var height;
+        var force_height = null;
+        var slug = "r0od5zbe";
+        var show_src = "//fiddle.jshell.net/r0od5zbe/2/show/dark/";
+        var resize_element_counter = 0;
+        var shell_edit_url = "/r0od5zbe/2/dark/";
+
+      </script>
+
+    <link rel="stylesheet" media="screen" href="./css(1)">
+
+    <style type="text/css" media="screen">
+    </style>
+
+  </head>
+  <body>
+    <div id="wrapper">
+        <header>
+          <h1><a href="https://jsfiddle.net/r0od5zbe/2/?utm_source=website&amp;utm_medium=embed&amp;utm_campaign=r0od5zbe" target="_blank">Edit in JSFiddle</a></h1>
+          <div id="actions">
+            <ul class="normalRes">
+                <li class="&quot;active&quot;">
+                  <a data-trigger-type="js" href="https://jsfiddle.net/r0od5zbe/2/embedded/js,html,css,result/dark/#JavaScript">JavaScript</a>
+                </li>
+                <li>
+                  <a data-trigger-type="html" href="https://jsfiddle.net/r0od5zbe/2/embedded/js,html,css,result/dark/#HTML">HTML</a>
+                </li>
+                <li>
+                  <a data-trigger-type="css" href="https://jsfiddle.net/r0od5zbe/2/embedded/js,html,css,result/dark/#CSS">CSS</a>
+                </li>
+                <li>
+                  <a data-trigger-type="result" href="https://jsfiddle.net/r0od5zbe/2/embedded/js,html,css,result/dark/#Result">Result</a>
+                </li>
+            </ul>
+            <div class="hl" style="left: 0px; width: 81.0938px;"></div>
+          </div>
+        </header>
+
+        <div id="tabs">
+              <pre class="tCont active hljs javascript"><span class="hljs-keyword">var</span> slider = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'slider'</span>),
+    mod = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'mod'</span>),
+    op = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'op'</span>);
+
+slider.onchange = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+  mod.style.fontSize = <span class="hljs-keyword">this</span>.value + <span class="hljs-string">'px'</span>;
+  op.innerHTML = <span class="hljs-keyword">this</span>.value + <span class="hljs-string">'px'</span>;
+}</pre>
+              <pre class="tCont hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"admin"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"range"</span> <span class="hljs-attr">min</span>=<span class="hljs-string">"10"</span> <span class="hljs-attr">max</span>=<span class="hljs-string">"35"</span> <span class="hljs-attr">step</span>=<span class="hljs-string">"1"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"20"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"slider"</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Base unit is: <span class="hljs-tag">&lt;<span class="hljs-name">output</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"op"</span>&gt;</span>20px<span class="hljs-tag">&lt;/<span class="hljs-name">output</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Component"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"mod"</span>&gt;</span>
+  
+  <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Titulo<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"http://placekitten.com/g/250/250"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"Kitten"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>Move o slider aqui em cima!<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span>.<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>O tamanho de cada elemento é controlado pelo font-size que age como uma raiz para os ems e faz com que tudo se redimensione<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></pre>
+              <pre class="tCont hljs css">* {
+  <span class="hljs-attribute">box-sizing</span>: border-box;
+}
+
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">120px</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">font-family</span>: Arial, sans-serif;
+  <span class="hljs-attribute">word-break</span>: break-word;
+}
+
+<span class="hljs-selector-class">.Component</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">20px</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">max-width</span>: <span class="hljs-number">30em</span>;
+  <span class="hljs-attribute">border</span>: solid <span class="hljs-number">2px</span> <span class="hljs-number">#4286f4</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> auto;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#4286f4</span>;
+  <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">1em</span> <span class="hljs-number">0</span> <span class="hljs-number">1em</span> <span class="hljs-number">1em</span>;
+  <span class="hljs-attribute">position</span>: relative;
+  <span class="hljs-attribute">overflow</span>: hidden;
+}
+
+  <span class="hljs-selector-class">.Component</span><span class="hljs-selector-pseudo">:after</span> {
+    <span class="hljs-attribute">content</span>: <span class="hljs-string">''</span>;
+    <span class="hljs-attribute">display</span>: block;
+    <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">50%</span> <span class="hljs-number">0</span> <span class="hljs-number">50%</span> <span class="hljs-number">50%</span>;
+    <span class="hljs-attribute">width</span>: <span class="hljs-number">2em</span>;
+    <span class="hljs-attribute">height</span>: <span class="hljs-number">2em</span>;
+    <span class="hljs-attribute">position</span>: absolute;
+    <span class="hljs-attribute">top</span>: .<span class="hljs-number">2em</span>;
+    <span class="hljs-attribute">right</span>: .<span class="hljs-number">2em</span>;
+    <span class="hljs-attribute">background</span>: <span class="hljs-number">#4286f4</span>;
+  }
+
+  <span class="hljs-selector-class">.Component</span> <span class="hljs-selector-tag">h2</span> {
+    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">2em</span>;
+    <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> .<span class="hljs-number">4em</span>;
+  }
+
+  <span class="hljs-selector-class">.Component</span> <span class="hljs-selector-tag">img</span> {
+    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">100%</span>;
+    <span class="hljs-attribute">height</span>: auto;
+    <span class="hljs-attribute">border</span>: solid .<span class="hljs-number">3em</span> <span class="hljs-number">#4286f4</span>;
+    <span class="hljs-attribute">float</span>: left;
+    <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> <span class="hljs-number">1em</span> <span class="hljs-number">1em</span> <span class="hljs-number">0</span>;
+  }
+
+  <span class="hljs-selector-class">.Component</span> <span class="hljs-selector-tag">p</span> {
+    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1em</span>;
+    <span class="hljs-attribute">margin</span>: <span class="hljs-number">1em</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span>;
+    <span class="hljs-attribute">text-align</span>: left;
+  }
+
+<span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type="range"]</span> {
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">20px</span> auto;
+  <span class="hljs-attribute">display</span>: block;
+}
+
+<span class="hljs-selector-class">.admin</span> {
+  <span class="hljs-attribute">position</span>: fixed;
+  <span class="hljs-attribute">background</span>: <span class="hljs-number">#eee</span>;
+  <span class="hljs-attribute">top</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">left</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">right</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">z-index</span>: <span class="hljs-number">999</span>;
+}
+
+<span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">text-align</span>: center;
+}
+
+<span class="hljs-selector-class">.p</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">14px</span>;
+  <span class="hljs-attribute">padding-top</span>: <span class="hljs-number">100px</span>;
+}
+
+@<span class="hljs-keyword">media</span> screen and (max-width: <span class="hljs-number">700px</span>) {
+  
+  <span class="hljs-selector-class">.Component</span> {
+    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">14px</span>; 
+  }
+
+}
+
+@<span class="hljs-keyword">media</span> screen and (max-width: <span class="hljs-number">400px</span>) {
+  
+  <span class="hljs-selector-class">.Component</span> {
+    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">10px</span>;
+    <span class="hljs-attribute">width</span>: auto;
+  }
+
+}</pre>
+              <div class="tCont result " id="result"></div>
+        </div>
+    </div>
+
+    <script>
+      if (window.location === window.parent.location){
+        document.location = "//jsfiddle.net/r0od5zbe/2/"
+      }
+    </script>
+  
+
+</body></html>

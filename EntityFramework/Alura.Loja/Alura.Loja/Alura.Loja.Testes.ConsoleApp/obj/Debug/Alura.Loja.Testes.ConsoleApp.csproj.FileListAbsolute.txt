@@ -1,0 +1,61 @@
+c:\users\caleum\documents\visual studio 2017\Projects\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Alura.Loja.Testes.ConsoleApp.exe.config
+c:\users\caleum\documents\visual studio 2017\Projects\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Alura.Loja.Testes.ConsoleApp.exe
+c:\users\caleum\documents\visual studio 2017\Projects\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Alura.Loja.Testes.ConsoleApp.pdb
+c:\users\caleum\documents\visual studio 2017\Projects\Alura.Loja\Alura.Loja.Testes.ConsoleApp\obj\Debug\Alura.Loja.Testes.ConsoleApp.csprojResolveAssemblyReference.cache
+c:\users\caleum\documents\visual studio 2017\Projects\Alura.Loja\Alura.Loja.Testes.ConsoleApp\obj\Debug\Alura.Loja.Testes.ConsoleApp.exe
+c:\users\caleum\documents\visual studio 2017\Projects\Alura.Loja\Alura.Loja.Testes.ConsoleApp\obj\Debug\Alura.Loja.Testes.ConsoleApp.pdb
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\obj\Debug\Alura.Loja.Testes.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Alura.Loja.Testes.ConsoleApp.exe.config
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Alura.Loja.Testes.ConsoleApp.exe
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Alura.Loja.Testes.ConsoleApp.pdb
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.Options.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Remotion.Linq.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.AppContext.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Collections.Immutable.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Console.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Globalization.Calendars.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Interactive.Async.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.IO.Compression.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.IO.FileSystem.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Net.Http.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Net.Sockets.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Xml.ReaderWriter.dll
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.Options.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\Remotion.Linq.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Collections.Immutable.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Interactive.Async.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\obj\Debug\Alura.Loja.Testes.ConsoleApp.csproj.CopyComplete
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\obj\Debug\Alura.Loja.Testes.ConsoleApp.exe
+C:\projetos\Cursos alura\curso alura entity framework\Alura.Loja\Alura.Loja\Alura.Loja.Testes.ConsoleApp\obj\Debug\Alura.Loja.Testes.ConsoleApp.pdb

@@ -1,0 +1,100 @@
+instalando o create-react-app
+
+npm install create-react-app
+
+criação do projeto 
+npx create-react-app curso-react-alura
+
+instalando materialize estilizador de paginas
+
+npm install materialize-css@1.0.0
+
+
+npm install validator@10.11.0
+
+
+npm install --save react-router-dom
+
+
+npm install @material-ui/core
+
+
+
+_______________________________________________________________
+
+Em resumo, o processo de montagem tem 4 métodos de ciclo de vida. Eles são invocados na seguinte
+ordem:
+• constructor()
+• getDerivedStateFromProps()
+• render()
+• componentDidMount()
+
+
+Mas, e quanto ao ciclo de vida de atualização de um componente? O que acontece quando o state
+ou as props mudam? No total, existem 5 métodos, chamados na seguinte ordem:
+• getDerivedStateFromProps()
+• shouldComponentUpdate()
+• render()
+• getSnapshotBeforeUpdate(
+• componentDidUpdate()
+• componentDidCatch(error,
+info)
+
+Por último, mas não menos importante, existe o ciclo de vida de desmontagem de um componente.
+Ele possui apenas um método, componentWillUnmount().
+
+
+_______________________________________________________________
+
+
+****criação de context api
+
+no app.js
+
+import ThemeContext from './theme_context';
+
+function App() {
+const theme = { color: 'blue' }
+
+return (
+	<div>
+		<ThemeContext.Provider valeu={theme}>  // outro metodo utilizado alem do Provider é o Consumer, o valor passado pode ser utilizado 
+													em qualquer filho dos elementos Title (filho dos filhos - children). 
+													Passar dados globais diretamente para um componente da arvore
+			<Title name="React"/>
+			<Title name="Redux"/>
+			<Title name="Saga"/>
+		<ThemeContext.Provider>
+	</div>
+);
+}
+
+
+
+****dentro do arquivo theme_context
+
+import React from 'react'
+
+const ThemeContext = Reac.creacteContext()
+
+export default ThemeContext
+
+
+**** para utilizar em qualqer component
+
+importa o ThemeContext
+
+seta a variavel context
+
+e utiliza o this.context.color  irá trazer a cor do theme_context
+
+
+_______________________________________________________________
+
+
+
+
+
+
+
+

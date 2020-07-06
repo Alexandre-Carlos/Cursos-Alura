@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://jsfiddle.net/2yxo7puj/10/embedded/js,html,css,result/dark/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+    <meta http-equiv="edit-Type" edit="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JSFiddle</title>
+
+      <meta name="robots" content="index, follow">
+      <meta name="googlebot" content="index, follow">
+
+      <script src="./highlight.pack.js.download"></script>
+      <script src="./embed.js.download"></script>
+      <link rel="stylesheet" media="screen" href="./embed-dark.css">
+
+      <script type="text/javascript">
+        var height;
+        var force_height = null;
+        var slug = "2yxo7puj";
+        var show_src = "//fiddle.jshell.net/2yxo7puj/10/show/dark/";
+        var resize_element_counter = 0;
+        var shell_edit_url = "/2yxo7puj/10/dark/";
+
+      </script>
+
+    <link rel="stylesheet" media="screen" href="./css(1)">
+
+    <style type="text/css" media="screen">
+    </style>
+
+  </head>
+  <body>
+    <div id="wrapper">
+        <header>
+          <h1><a href="https://jsfiddle.net/2yxo7puj/10/?utm_source=website&amp;utm_medium=embed&amp;utm_campaign=2yxo7puj" target="_blank">Edit in JSFiddle</a></h1>
+          <div id="actions">
+            <ul class="normalRes">
+                <li class="&quot;active&quot;">
+                  <a data-trigger-type="js" href="https://jsfiddle.net/2yxo7puj/10/embedded/js,html,css,result/dark/#JavaScript">JavaScript</a>
+                </li>
+                <li>
+                  <a data-trigger-type="html" href="https://jsfiddle.net/2yxo7puj/10/embedded/js,html,css,result/dark/#HTML">HTML</a>
+                </li>
+                <li>
+                  <a data-trigger-type="css" href="https://jsfiddle.net/2yxo7puj/10/embedded/js,html,css,result/dark/#CSS">CSS</a>
+                </li>
+                <li>
+                  <a data-trigger-type="result" href="https://jsfiddle.net/2yxo7puj/10/embedded/js,html,css,result/dark/#Result">Result</a>
+                </li>
+            </ul>
+            <div class="hl" style="left: 0px; width: 81.0938px;"></div>
+          </div>
+        </header>
+
+        <div id="tabs">
+              <pre class="tCont active hljs javascript"><span class="hljs-keyword">var</span> slider = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'slider'</span>),
+    mod = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'mod'</span>),
+    op = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'op'</span>),
+    op2 = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'op2'</span>),
+    op3 = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'op3'</span>),
+    half = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'half'</span>);
+
+slider.onchange = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+  mod.style.width = <span class="hljs-keyword">this</span>.value + <span class="hljs-string">'px'</span>;
+  mod.style.height = <span class="hljs-keyword">this</span>.value + <span class="hljs-string">'px'</span>;
+  op.innerHTML = <span class="hljs-string">`<span class="hljs-subst">${<span class="hljs-keyword">this</span>.value}</span> px`</span>;
+  op2.innerHTML = <span class="hljs-string">`<span class="hljs-subst">${half.offsetWidth}</span> px`</span>
+  op3.innerHTML = <span class="hljs-string">`<span class="hljs-subst">${half.offsetHeight}</span> px`</span>
+;}</pre>
+              <pre class="tCont hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"admin"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"range"</span> <span class="hljs-attr">min</span>=<span class="hljs-string">"300"</span> <span class="hljs-attr">max</span>=<span class="hljs-string">"940"</span> <span class="hljs-attr">step</span>=<span class="hljs-string">"1"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"940"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"slider"</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Container is: <span class="hljs-tag">&lt;<span class="hljs-name">output</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"op"</span>&gt;</span>940px<span class="hljs-tag">&lt;/<span class="hljs-name">output</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>width is: <span class="hljs-tag">&lt;<span class="hljs-name">output</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"op2"</span>&gt;</span>470px<span class="hljs-tag">&lt;/<span class="hljs-name">output</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Height is: <span class="hljs-tag">&lt;<span class="hljs-name">output</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"op3"</span>&gt;</span>940px<span class="hljs-tag">&lt;/<span class="hljs-name">output</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"mod"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"half"</span>&gt;</span>
+  
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></pre>
+              <pre class="tCont hljs css"><span class="hljs-selector-class">.container</span>{
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">940px</span>;
+  <span class="hljs-attribute">height</span>:<span class="hljs-number">940px</span>;
+  <span class="hljs-attribute">background-color</span>: grey;
+}
+
+<span class="hljs-selector-id">#half</span>{
+  <span class="hljs-attribute">width</span>:<span class="hljs-number">50%</span>;
+  <span class="hljs-attribute">height</span>:<span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">background-color</span>: blue;
+}</pre>
+              <div class="tCont result " id="result"></div>
+        </div>
+    </div>
+
+    <script>
+      if (window.location === window.parent.location){
+        document.location = "//jsfiddle.net/2yxo7puj/10/"
+      }
+    </script>
+  
+
+</body></html>

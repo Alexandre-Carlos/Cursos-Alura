@@ -1,0 +1,92 @@
+
+1# 
+boas praticas
+funções construtores com primeira letra do nome maiuscula
+
+ex
+
+função
+function adicionarReticencias(texto) {
+	//...
+}
+
+contrutor
+
+function Livro(nome, ano) {
+	this.nome = nome;
+	this.ano = ano;
+}
+
+2# 
+definição de variaveis
+
+maneiras de se declarar uma variavel
+
+var nome = 'Mateus'; evitar de utilizar pois ela se espalha para fora do escopo sendo seu valor utilizado em qualquer local.
+let nome = 'Mateus'; muito utilizada atualmente pois seu valor é acessado penas dentro do escopo, após o termino do for ou um bloco de comandos ela é destruida.
+const nome = 'Mateus'; muito ulizada tanto para variaveis como para declaração de arrys, seu valor é imutavel, no caso do array pode ir sendo acrescentado novos valores e acessada em todo o documento
+
+nome = 'Mateus'; nunca utilizar.
+
+
+3#
+operador de igualdade
+1 == '1'; neste caso é feita a mudança dos tipos para haver uma equivalencia.
+resultado verdadeito
+
+operaqdor de igualdade estrita
+1 === '1'; neste tipo de igualdade estrita, não é alterado o tipo das variaveis ou valores, assim a comparação é feita do modo em que foram criadas
+resultado falso
+
+
+4#
+Não atribuir funções no codigo que não são estritamente do javascript. No codigo abaixo é atribuido um css modificando a cor de um local.
+
+document.getElementById("ativo").style.color = "#333";
+
+document.getElementById("inativo").style.color = "#F4F4F4"
+
+Para isso é utilizada a adição de uma classe pré existente no css no objeto a ser modificado na pagina
+
+Adiciona Classe
+const botao = document.getElementById("botao");
+botao.classList.add("inativo");
+
+Remove Classe
+const botao = document.getElementById("botao");
+botao.classList.remove("inativo");
+
+
+5#
+
+Para que seu codigo não tenha a repetição de troca de classes no css ou outras funcionalidades repetitivas e copiadas, é incicado sempre a criação de functions para otimizar e deixar o codigo mais limpo e objeto.
+
+trocaClasse("botao", "inativo", "ativo")
+
+
+function trocarClasse(elemento, classeAntiga, classeNova) {
+	const elementoAlvo = documento.getElementById(elemento);
+	elementoAlvo.classList.remove(classeAntiga);
+	elementoAlvo.classList.add(classeNova);
+}
+
+
+6#
+
+criar um alias do dom, para que assim ele seja varrido apenas uma vez, com o alias pode-se acessar e alterar os objetos sem ter que recarrega-lo.
+Assim quando quiser alterar qualquer elemento dele não será necessario varre-lo novamento e causar gasto exagerado de memoria.
+metodo criado no curso da alura
+
+7#
+utilizar try para tratamento de mensagens de erro, assim as mensagens são monstradas de uma maneira mais amigavel par ao usuário e em console para o dev.
+Principalmente em aplicações onde é utilizada acessos externos, internet ou apis de terceiros.
+
+try {
+	throw Error;
+}
+ catch {
+	 console.log(e);
+ }
+
+
+

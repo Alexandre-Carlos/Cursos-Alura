@@ -1,0 +1,16 @@
+View declarada no JS ou no HTML?
+PRÓXIMA ATIVIDADE
+
+Aprendemos a declarar nossas views no mundo JavaScript. Um framework que segue este caminho é o React do Facebook. Contudo, há uma outra abordagem que é declarar 
+as views em arquivos HTML, inclusive o famoso Angularjs faz dessa maneira.
+
+Neste treinamento optei por declarar a view no mundo JS, pois essa solução me permitiu implementar o modelo MVC sem grandes voltas e ainda manter o foco em boas 
+práticas e ES6, tornando o treinamento mais acessível para diversos perfis de "ninjas" em JavaScript.
+
+VER OPINIÃO DO INSTRUTOR
+Opinião do instrutor
+
+Um fato curioso é que no React declaramos nossos componentes de view usando o JSX que permite escrever HTML mais facilmente no mundo JS. Apesar de não termos esses recursos, as templates strings do 
+ES6 nos ajudam bastante com nossas declarações e tudo sem precisar de um framework ou biblioteca!
+
+

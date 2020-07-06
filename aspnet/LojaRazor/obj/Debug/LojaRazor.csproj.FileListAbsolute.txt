@@ -1,0 +1,68 @@
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\LojaRazor.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\LojaRazor.pdb
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\Antlr3.Runtime.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\EntityFramework.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\Newtonsoft.Json.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Net.Http.Formatting.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.Http.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.Http.WebHost.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.Mvc.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.Optimization.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.Providers.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.Razor.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.WebPages.Deployment.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.WebPages.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.WebPages.Razor.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\WebGrease.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\EntityFramework.xml
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\Newtonsoft.Json.xml
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Net.Http.Formatting.xml
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.Http.xml
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.Http.WebHost.xml
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.Mvc.xml
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.Razor.xml
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.WebPages.xml
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.WebPages.Deployment.xml
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\bin\System.Web.WebPages.Razor.xml
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\obj\Debug\LojaRazor.csprojResolveAssemblyReference.cache
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\obj\Debug\LojaRazor.dll
+C:\Users\victor\Documents\Alura\LojaRazor\LojaRazor\obj\Debug\LojaRazor.pdb
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\LojaRazor.dll.config
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\LojaRazor.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\LojaRazor.pdb
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\Antlr3.Runtime.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\EntityFramework.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\Microsoft.Web.Infrastructure.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\Newtonsoft.Json.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Net.Http.Formatting.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.Http.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.Http.WebHost.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.Mvc.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.Optimization.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.Providers.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.Razor.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.WebPages.Deployment.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.WebPages.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.WebPages.Razor.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\WebGrease.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\EntityFramework.xml
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\Newtonsoft.Json.xml
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Net.Http.Formatting.xml
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.Http.xml
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.Http.WebHost.xml
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.Mvc.xml
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.Razor.xml
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.WebPages.xml
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.WebPages.Deployment.xml
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\System.Web.WebPages.Razor.xml
+C:\projetos\Cursos alura\aspnet\LojaRazor\obj\Debug\LojaRazor.csproj.CoreCompileInputs.cache
+C:\projetos\Cursos alura\aspnet\LojaRazor\obj\Debug\LojaRazor.csproj.CopyComplete
+C:\projetos\Cursos alura\aspnet\LojaRazor\obj\Debug\LojaRazor.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\obj\Debug\LojaRazor.pdb
+C:\projetos\Cursos alura\aspnet\LojaRazor\obj\Debug\LojaRazor.csprojAssemblyReference.cache
+C:\projetos\Cursos alura\aspnet\LojaRazor\bin\en-us\LojaRazor.resources.dll
+C:\projetos\Cursos alura\aspnet\LojaRazor\obj\Debug\LojaRazor.Internacionalizacao.Mensagens.resources
+C:\projetos\Cursos alura\aspnet\LojaRazor\obj\Debug\LojaRazor.Internacionalizacao.Mensagens.en-us.resources
+C:\projetos\Cursos alura\aspnet\LojaRazor\obj\Debug\LojaRazor.csproj.GenerateResource.cache
+C:\projetos\Cursos alura\aspnet\LojaRazor\obj\Debug\en-us\LojaRazor.resources.dll

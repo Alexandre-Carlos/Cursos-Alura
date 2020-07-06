@@ -1,0 +1,62 @@
+
+ES6 - ecman script 6
+
+template rendering
+
+arrow function
+
+tipo de function iife - função auto invocavel
+
+digitando ! exclamação no inicio do arquivo html e dando enter, é criada a estrutura html pelo emmet
+
+ctrl+alt+C - exibe o console no chrome
+
+DOM ou Document Object Model
+
+let - definição de variavel que fica dentro do escopo (Bloco de comando) apenas {}, o javascript é diferent do c#, Java e demais linguagens
+no caso da definão de variavel, ser feita com o var ela funciona fora do escopo (bloco de comando) {}.
+
+shalow - objeto pode ser alterado diretamente 0 Object.Freeze() não congela todo o obeto apenas a superficie Shalow(raso)
+
+document
+
+$ = document.querySelector.bind(document); // faz um buffer do dom para que não seja mapeado toda vez que um item seja requerido
+
+
+<h1 class="titulo"> Meu primeiro site</h1> -- através da tag class é feita a busca pelo querySelector
+
+colocar a tag script no final do body --- > <script src="js/principal.js"></script>
+
+<script>
+
+var mensagem = "Seja bem vindo ao meu site!"
+
+alert(mensagem);
+
+console.log("Ola mundo!"
+
+console.log("Fui carregado de um arquivo externo!");
+
+
+var titulo = document.querySelector(".titulo");
+console.log(titulo);
+console.log(titulo.textContent);
+titulo.textContent = "Aparecida Nutricionista";
+</script>
+
+
+
+titulo.addEventListener("click", mostraMensagem);
+
+function mostraMensagem(){
+  console.log("Olá eu fui clicado!");
+}
+
+ou ====================>
+
+titulo.addEventListener("click", function (){
+  console.log("Olha só posso chamar uma função anomima!");
+});
+
+
+

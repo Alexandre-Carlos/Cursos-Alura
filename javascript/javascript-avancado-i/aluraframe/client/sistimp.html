@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        class SistemaImpressao {
+
+            constructor() {
+                this._codigo = 2;
+            }
+            //este codigo não funciona porque quando a função é chamada fora do metodo sistemaImpressao o this._codigo no forEach entra como window 
+            //e não o _codigo só existe dentro do sistemImpressao
+            /*imprime(nomes) {
+
+                nomes.forEach(function(nome) {
+                    console.log(this);
+                    console.log(`${this._codigo}: ${nome}`);
+                });
+            }*/
+
+
+            //com a arrow function o this se mante igual ao local de sua criação, independente de onde a função seja chamada, o this será sistemaImpressão
+            imprime(nomes) {
+                // usando arrow function.
+                nomes.forEach(nome => {
+                    console.log(this);
+                    console.log(`${this._codigo}: ${nome}`);
+                });
+            }
+
+        }
+
+        let nomes = ['Flávio', 'Nico', 'Douglas'];
+        let si = new SistemaImpressao();
+        si.imprime(nomes);
+
+    </script>
+</body>
+</html>

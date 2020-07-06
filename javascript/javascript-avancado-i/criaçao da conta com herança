@@ -1,0 +1,140 @@
+Modelando uma Conta
+PRÓXIMA ATIVIDADE
+
+Crie uma classe chamada Conta. Ela terá apenas um atributo: o saldo. Passe o atributo no construtor e crie também um getter para a propriedade.
+
+Além disso, defina o método atualiza, na classe Conta, que recebe um parâmetro taxa.
+
+Dentro do método atualiza, jogue uma exceção para garantir que ninguém chame o método sem ter uma filha em mãos.
+
+Não é necessário criar outra classe que herde de Conta por enquanto, a ideia aqui é apenas focar o design da classe.
+
+VER OPINIÃO DO INSTRUTOR
+Opinião do instrutor
+
+O método atualiza deve ser sobrescrito pelas filhas da classe Conta por isso, criamos uma exceção nele. No próximo exercício vamos realmente criar as filhas da classe Conta:
+
+class Conta {
+
+    constructor(saldo) {
+        this._saldo = saldo;
+    }
+
+    get saldo() {
+        return this._saldo;
+    }
+
+    atualiza(taxa) {
+        throw new Error('Você deve sobrescrever o método ');
+    }
+}
+
+______________________________________________________________
+
+
+Herdando de Conta
+PRÓXIMA ATIVIDADE
+
+Temos a classe Conta:
+
+class Conta {
+
+    constructor(saldo) {
+        this._saldo = saldo;
+    }
+
+    get saldo() {
+        return this._saldo;
+    }
+
+    atualiza(taxa) {
+        throw new Error('Você deve sobrescrever o método ');
+    }
+}
+Com a classe Conta em mãos, crie duas subclasses, ou seja, classes que herdam de Conta:
+
+ContaCorrente
+ContaPoupanca.
+Ambas devem ter o método atualiza reescrito com a seguinte regra: a ContaCorrente deve atualizar-se somando a taxa ao saldo e a ContaPoupanca deve atualizar-se somando o dobro da taxa.
+
+Mãos à obra!
+
+VER OPINIÃO DO INSTRUTOR
+Opinião do instrutor
+
+Primeiro devemos herdar da classe Conta
+
+class ContaCorrente extends Conta {
+}
+e
+
+class ContaPoupanca extends Conta {
+}
+E reescrever o método atualiza em cada classe, seguindo o enunciado:
+
+class ContaCorrente extends Conta {
+
+    atualiza(taxa) {
+        this._saldo = this._saldo + taxa;
+    }
+}
+E a classe ContaPoupanca, que se atualiza com o dobro da taxa:
+
+class ContaPoupanca extends Conta {
+
+    atualiza(taxa) {
+        this._saldo = this._saldo + taxa * 2;
+    }
+}
+E o teste:
+
+conta1 = new ContaCorrente(200); 
+conta2 = new ContaPoupanca(300); 
+conta1.atualiza(2);
+conta2.atualiza(3);
+console.log(conta1.saldo); //202
+console.log(conta2.saldo); //306
+
+
+______________________________________________________________________
+
+
+Classes abstratas, tem como?
+PRÓXIMA ATIVIDADE
+
+Repare que a nossa classe View possui um método que deve ser reescrito pelas classes filhas:
+
+class View {
+
+   //construtor omitido
+
+    template(model) {
+         throw new Error('Você deve sobrescrever este método em seu template');
+    }
+
+   //método update omitido
+}
+Já que esse método não funciona sem ter um filho será que faz sentido criar um objeto da classe View? Por exemplo:
+
+var view = new View(elemento); //faz sentido?
+view.template(model); //joga uma exceção
+Criamos a classe View apenas para reutilizar o código mas não deveria ter um objeto concreto dela! No mundo OO, essas classes que foram criadas para não ter instancias delas, são chamadas de classes abstratas. Ideal seria proibir criar um objeto da classe View, não?
+
+VER OPINIÃO DO INSTRUTOR
+Opinião do instrutor
+
+No JavaScript ( ECMAScript) não há uma forma de evitar alguém dar new na classe View, no entanto isso existe no TypeScript. A linguagem TypeScript que se baseia no JavaScript, já possui vários recursos que ainda não existem no JavaScript, incluindo classes abstratas.
+
+Resumindo, com TypeScript poderíamos usar a palavra chave abstract que proíbe instanciar objetos dessa classe, por exemplo:
+
+abstract class View {
+
+}
+
+
+
+______________________________________________________________________
+
+
+
+
