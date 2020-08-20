@@ -16,19 +16,33 @@ namespace CasaDoCodigo
 
     public class RelatorioHelper : IRelatorioHelper
     {
+        //Problema: Não ira detectar mudanças no dns
+        //private static HttpClient httpClient;
+
+        private readonly HttpClient httpClient;
+
         private const string RelativeUri = "api/relatorio";
         private readonly IConfiguration configuration;
-        public RelatorioHelper(IConfiguration configuration)
+        public RelatorioHelper(IConfiguration configuration, HttpClient httpClient)
         {
             this.configuration = configuration;
+            this.httpClient = httpClient;
         }
 
         public async Task GerarRelatorio(Pedido pedido)
         {
             string linhaRelatorio = await GetLinhaRelatorio(pedido);
             //await System.IO.File.AppendAllLinesAsync("Relatorio.txt", new string[] { linhaRelatorio });
-            using (HttpClient httpClient = new HttpClient())
-            {
+
+
+
+            //Problema no uso do HttpClient: Exaustão de sockets
+            //using (HttpClient httpClient = new HttpClient())
+
+            //using (HttpClient httpClient = HttpClientFactory.Create())
+            //{
+
+
                 //texto do conteúdo (JSON)
                 var json = JsonConvert.SerializeObject(linhaRelatorio);
 
@@ -44,9 +58,13 @@ namespace CasaDoCodigo
 
                 Uri uri = new Uri(baseUri, RelativeUri);
 
-                await httpClient.PostAsync(uri, httpContent);
+                HttpResponseMessage httpResponseMessage = await httpClient.PostAsync(uri, httpContent);
 
-            }
+                if (!httpResponseMessage.IsSuccessStatusCode)
+                {
+                    throw new ApplicationException(httpResponseMessage.ReasonPhrase);
+                }
+            //}
         }
 
         private async Task<string> GetLinhaRelatorio(Pedido pedido)

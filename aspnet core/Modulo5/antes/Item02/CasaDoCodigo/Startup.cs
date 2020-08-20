@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using System;
+using System.Net.Http;
 
 namespace CasaDoCodigo
 {
@@ -78,7 +79,9 @@ namespace CasaDoCodigo
             services.AddTransient<IPedidoRepository, PedidoRepository>();
             services.AddTransient<ICadastroRepository, CadastroRepository>();
             services.AddTransient<IRelatorioHelper, RelatorioHelper>();
-            
+
+
+
             //TAREFA: Permitir login externo 
             //com a conta da Microsoft
             //https://apps.dev.microsoft.com/
@@ -102,6 +105,9 @@ namespace CasaDoCodigo
             //        options.ClientId = Configuration["ExternalLogin:Google:ClientId"];
             //        options.ClientSecret = Configuration["ExternalLogin:Google:ClientSecret"];
             //    });
+
+
+            services.AddHttpClient<IRelatorioHelper, RelatorioHelper>();
         }
 
 
